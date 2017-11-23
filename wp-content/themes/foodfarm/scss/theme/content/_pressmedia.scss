@@ -1,0 +1,69 @@
+//Press Media
+.press-list{
+	.main-sidebar .pagination {
+	  margin: 30px 0 0;
+	  padding-top: 30px;
+	}
+}
+.press-media{
+	border-bottom: 1px solid #ebebeb;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    &:last-child {
+	  border: medium none;
+	  margin-bottom: -11px;
+	  padding: 0;
+	}
+	.post-name{
+		a{
+			&:hover{
+				color: #94c347;
+			}
+		}
+	}
+	.blog-info {
+	  float: $left;
+	  p{
+	  	color: #757575;
+	  	font-size: 13px;
+	  	font-style: italic; 
+	  	margin-bottom: 0;
+	  	span{
+	  		font-size: 12px;
+	  		font-weight: 800;
+	  	}
+	  }
+	}
+	.blog_post_desc{
+		p{
+			margin-bottom: 12px;
+			line-height: 21px;
+		}
+	}
+	.read-more{
+		a{
+			font-style: italic; 
+			color: #94c347;
+			font-size: 13px;
+		}
+		i{
+			margin-#{$right}: 7px;
+		}
+	}
+	.bg-hover{
+		position: relative;
+		&::before {
+		  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+		  height: 100%;
+		  #{$left}: 0;
+		  padding: 0;
+		  top: 0;
+		  width: 100%;
+		  border-radius: 10px;
+		}
+		img{
+			border-radius: 10px;
+			width: 100%;
+		}
+	}
+}

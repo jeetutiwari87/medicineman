@@ -1,0 +1,1 @@
+¹åY<?php exit; ?>a:1:{s:7:"content";s:162:"HOW TO ORDERÂ  Ordering your marijuana online is made simple We, at Medicine Man, understand that buying your medical marijuana isnâ€™t a piece of cake in Canada.";}

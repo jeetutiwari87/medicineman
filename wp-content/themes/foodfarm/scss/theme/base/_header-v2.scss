@@ -1,0 +1,147 @@
+.fixed-header {
+	.header-v2{
+		position: absolute;
+	}
+}
+.header-v2{
+	width: 100%;
+	z-index: 999;
+	.header-top{
+		background: none;
+		height: 53px;
+	}
+	.link-contact{
+		margin-top: 13px;
+	}
+	.header-logo{
+		margin-top: 10px;
+	}
+	.customlinks {
+		.dropdown-menu{
+			top:39px;
+			#{$right}: 0;
+			#{$left}: auto;
+		}
+	}
+	.main-navigation{
+		background: none;
+		border-top:1px dashed #b0b8bf;
+		border-bottom:1px dashed #b0b8bf;
+	}
+	.mega-menu{
+		float: $right;
+		> li{
+			>a{
+				border: none;
+				color: #fff;
+				padding: 22px 20px 25px;
+				&:before{
+					background: #fff;
+					content: "";
+					bottom:-2px;
+					height: 3px;
+				}
+				&:hover{
+					&:before{
+						width: 60%;
+					    margin-#{$left}: 20px;
+					}
+				}
+			}
+			&:first-child{
+				> a{
+					border-#{$left}: none;
+				}
+			}
+		}
+		.dropdown-menu{
+			top:69px;
+			width: 100%;
+			#{$left}: -60px;
+			li{
+				a{
+					padding: 6px 18px;
+				}
+			}
+		}
+	}
+	.right-header {
+		color: #fff;
+		> li{
+			border-#{$right}: 0;
+		}
+	}
+	.link-contact {
+		p a {
+			color: #fff;
+			&:hover {
+				color: #94c347;
+			}
+	  	}
+	}
+	.top-link {
+		margin-top: 14px;
+		.customlinks{
+			float: $right;
+			padding: 0 16px;
+			&.link-checkout{
+				position: relative;
+				&:before{
+					display: none;
+				}
+				.number-product{
+					position: absolute;
+					height: 20px;
+					width: 20px;
+					color: #fff;
+					font-size: 10px;
+					background: #94c347;
+					border-radius:50%;
+					top:-10px;
+					#{$right}: 0;
+					line-height: 20px;
+					text-align: center;
+				}
+			}
+			&:before{
+				top:5px;
+				#{$right}: 0;
+			}
+			&:last-child{
+				&:before{
+					display: block;
+				}
+			}
+			&:hover{
+				> a{
+					color: #94c347;
+				}
+			}
+		}
+	}
+	.top-link .customlinks .mini-cart li a {
+	  padding: 0;
+	}
+	.search-block-top {
+   	  .btn-search{
+   	  	 padding: 22px 20px;
+   	  	 border: none;
+   	  }
+   	}
+   	.top-search{
+   		top:68px;
+   	}
+   	form {
+   		.btn-search{
+   			color: #828282;
+   		}
+   	}
+   	.cart-block{
+   		top:40px;
+   	}
+   	.cart_label{
+   		color: #fff;
+   		padding: 0;
+   		border: none;
+   	}
+}

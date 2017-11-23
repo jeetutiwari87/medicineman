@@ -1,0 +1,1005 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-28 09:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: lib/functions.php:5
+msgid "Animation Type"
+msgstr ""
+
+#: lib/functions.php:342
+msgid "Animation Duration"
+msgstr ""
+
+#: lib/functions.php:344 lib/functions.php:354
+msgid "numerical value (unit: milliseconds)"
+msgstr ""
+
+#: lib/functions.php:352
+msgid "Animation Delay"
+msgstr ""
+
+#: lib/functions.php:362
+msgid "Extra class name"
+msgstr ""
+
+#: lib/functions.php:364
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: lib/functions.php:405
+msgid "Enter"
+msgstr ""
+
+#: lib/functions.php:414
+msgid "Scale"
+msgstr ""
+
+#: lib/functions.php:431
+msgid "Flip"
+msgstr ""
+
+#: lib/functions.php:440
+msgid "Spin"
+msgstr ""
+
+#: lib/functions.php:449
+msgid "Roll"
+msgstr ""
+
+#: lib/functions.php:458
+msgid "Wait"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:19
+msgid "Bestseller Product"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:21
+#: shortcodes/foodfarm_blog.php:23 shortcodes/foodfarm_brands.php:20
+#: shortcodes/foodfarm_container.php:20
+#: shortcodes/foodfarm_featured_product.php:21
+#: shortcodes/foodfarm_gallery.php:22 shortcodes/foodfarm_instagram_feed.php:20
+#: shortcodes/foodfarm_our_team.php:22
+#: shortcodes/foodfarm_products_category.php:48
+#: shortcodes/foodfarm_products_filter.php:25
+#: shortcodes/foodfarm_product_list.php:22
+#: shortcodes/foodfarm_recent_product.php:19 shortcodes/foodfarm_recipes.php:22
+#: shortcodes/foodfarm_sale_product.php:21 shortcodes/foodfarm_services.php:21
+#: shortcodes/foodfarm_slider_wrap.php:21
+#: shortcodes/foodfarm_static_block.php:30
+#: shortcodes/foodfarm_testimonial.php:21 shortcodes/foodfarm_today_menu.php:19
+#: shortcodes/foodfarm_toprate_product.php:21
+#: shortcodes/foodfarm_we_doing.php:20
+msgid "Foodfarm"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:27
+msgid "Number of bestseller_product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:36
+#: shortcodes/foodfarm_featured_product.php:36
+#: shortcodes/foodfarm_recent_product.php:34
+#: shortcodes/foodfarm_sale_product.php:36
+#: shortcodes/foodfarm_toprate_product.php:36
+msgid "Items On Desktop Large"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:44
+#: shortcodes/foodfarm_brands.php:41
+#: shortcodes/foodfarm_featured_product.php:44
+#: shortcodes/foodfarm_recent_product.php:42
+#: shortcodes/foodfarm_sale_product.php:44
+#: shortcodes/foodfarm_toprate_product.php:44
+msgid "Items On Desktop"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:52
+#: shortcodes/foodfarm_brands.php:57
+#: shortcodes/foodfarm_featured_product.php:52
+#: shortcodes/foodfarm_recent_product.php:50
+#: shortcodes/foodfarm_sale_product.php:52
+#: shortcodes/foodfarm_toprate_product.php:52
+msgid "Items On Mobile"
+msgstr ""
+
+#: shortcodes/foodfarm_bestseller_product.php:60
+#: shortcodes/foodfarm_brands.php:65
+#: shortcodes/foodfarm_featured_product.php:60
+#: shortcodes/foodfarm_recent_product.php:58
+#: shortcodes/foodfarm_sale_product.php:60
+#: shortcodes/foodfarm_toprate_product.php:60
+msgid "Items On Mobile Small"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:29 shortcodes/foodfarm_gallery.php:28
+#: shortcodes/foodfarm_products_category.php:54
+#: shortcodes/foodfarm_products_filter.php:31
+#: shortcodes/foodfarm_recipes.php:28 shortcodes/foodfarm_testimonial.php:27
+#: shortcodes/foodfarm_today_menu.php:25
+msgid "First Title"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:36 shortcodes/foodfarm_gallery.php:35
+#: shortcodes/foodfarm_products_category.php:61
+#: shortcodes/foodfarm_products_filter.php:38
+#: shortcodes/foodfarm_recipes.php:35 shortcodes/foodfarm_testimonial.php:38
+#: shortcodes/foodfarm_today_menu.php:32
+msgid "Last Title"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:43 shortcodes/foodfarm_products_filter.php:45
+#: shortcodes/foodfarm_recipes.php:42
+msgid "Show title"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:46 shortcodes/foodfarm_blog.php:306
+#: shortcodes/foodfarm_brands.php:35 shortcodes/foodfarm_container.php:42
+#: shortcodes/foodfarm_gallery.php:105 shortcodes/foodfarm_gallery.php:112
+#: shortcodes/foodfarm_instagram_feed.php:36
+#: shortcodes/foodfarm_products_category.php:160
+#: shortcodes/foodfarm_products_filter.php:48
+#: shortcodes/foodfarm_products_filter.php:120
+#: shortcodes/foodfarm_products_filter.php:133
+#: shortcodes/foodfarm_product_categories.php:103
+#: shortcodes/foodfarm_product_categories.php:114
+#: shortcodes/foodfarm_product_categories.php:124
+#: shortcodes/foodfarm_product_list.php:71 shortcodes/foodfarm_recipes.php:45
+#: shortcodes/foodfarm_recipes.php:273 shortcodes/foodfarm_recipes.php:284
+#: shortcodes/foodfarm_services.php:268 shortcodes/foodfarm_testimonial.php:116
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:50 shortcodes/foodfarm_recipes.php:49
+msgid "Select icon list"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:54 shortcodes/foodfarm_recipes.php:53
+msgid "None"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:55 shortcodes/foodfarm_recipes.php:54
+msgid "Default icon"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:56 shortcodes/foodfarm_recipes.php:55
+msgid "Font icon family"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:61 shortcodes/foodfarm_gallery.php:42
+#: shortcodes/foodfarm_recipes.php:60 shortcodes/foodfarm_today_menu.php:39
+msgid "Type Icon Title"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:65 shortcodes/foodfarm_gallery.php:46
+#: shortcodes/foodfarm_recipes.php:64 shortcodes/foodfarm_today_menu.php:43
+msgid "Icon 1"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:66 shortcodes/foodfarm_gallery.php:47
+#: shortcodes/foodfarm_recipes.php:65 shortcodes/foodfarm_today_menu.php:44
+msgid "Icon 2"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:71 shortcodes/foodfarm_recipes.php:74
+#: shortcodes/foodfarm_services.php:118 shortcodes/foodfarm_we_doing.php:37
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:73 shortcodes/foodfarm_recipes.php:76
+#: shortcodes/foodfarm_services.php:120 shortcodes/foodfarm_we_doing.php:39
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:74 shortcodes/foodfarm_recipes.php:77
+#: shortcodes/foodfarm_services.php:121 shortcodes/foodfarm_we_doing.php:40
+msgid "Stroke Icons 7"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:75 shortcodes/foodfarm_recipes.php:78
+#: shortcodes/foodfarm_services.php:122 shortcodes/foodfarm_we_doing.php:41
+msgid "Font Foodfarm"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:76 shortcodes/foodfarm_recipes.php:79
+#: shortcodes/foodfarm_services.php:123 shortcodes/foodfarm_we_doing.php:42
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:77 shortcodes/foodfarm_recipes.php:80
+#: shortcodes/foodfarm_services.php:124 shortcodes/foodfarm_we_doing.php:43
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:78 shortcodes/foodfarm_recipes.php:81
+#: shortcodes/foodfarm_services.php:125 shortcodes/foodfarm_we_doing.php:44
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:79 shortcodes/foodfarm_recipes.php:82
+#: shortcodes/foodfarm_services.php:126 shortcodes/foodfarm_we_doing.php:45
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:83 shortcodes/foodfarm_recipes.php:86
+#: shortcodes/foodfarm_services.php:134 shortcodes/foodfarm_we_doing.php:49
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:91 shortcodes/foodfarm_blog.php:108
+#: shortcodes/foodfarm_blog.php:124 shortcodes/foodfarm_blog.php:139
+#: shortcodes/foodfarm_blog.php:155 shortcodes/foodfarm_blog.php:171
+#: shortcodes/foodfarm_blog.php:187 shortcodes/foodfarm_recipes.php:94
+#: shortcodes/foodfarm_recipes.php:111 shortcodes/foodfarm_recipes.php:127
+#: shortcodes/foodfarm_recipes.php:142 shortcodes/foodfarm_recipes.php:158
+#: shortcodes/foodfarm_recipes.php:174 shortcodes/foodfarm_recipes.php:190
+#: shortcodes/foodfarm_services.php:138 shortcodes/foodfarm_services.php:155
+#: shortcodes/foodfarm_services.php:171 shortcodes/foodfarm_services.php:186
+#: shortcodes/foodfarm_services.php:202 shortcodes/foodfarm_services.php:218
+#: shortcodes/foodfarm_services.php:234 shortcodes/foodfarm_we_doing.php:53
+#: shortcodes/foodfarm_we_doing.php:70 shortcodes/foodfarm_we_doing.php:86
+#: shortcodes/foodfarm_we_doing.php:101 shortcodes/foodfarm_we_doing.php:117
+#: shortcodes/foodfarm_we_doing.php:133 shortcodes/foodfarm_we_doing.php:149
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:103 shortcodes/foodfarm_blog.php:119
+#: shortcodes/foodfarm_blog.php:134 shortcodes/foodfarm_blog.php:150
+#: shortcodes/foodfarm_blog.php:166 shortcodes/foodfarm_blog.php:182
+#: shortcodes/foodfarm_blog.php:198 shortcodes/foodfarm_recipes.php:106
+#: shortcodes/foodfarm_recipes.php:122 shortcodes/foodfarm_recipes.php:137
+#: shortcodes/foodfarm_recipes.php:153 shortcodes/foodfarm_recipes.php:169
+#: shortcodes/foodfarm_recipes.php:185 shortcodes/foodfarm_recipes.php:201
+#: shortcodes/foodfarm_services.php:150 shortcodes/foodfarm_services.php:166
+#: shortcodes/foodfarm_services.php:181 shortcodes/foodfarm_services.php:197
+#: shortcodes/foodfarm_services.php:213 shortcodes/foodfarm_services.php:229
+#: shortcodes/foodfarm_services.php:245 shortcodes/foodfarm_we_doing.php:65
+#: shortcodes/foodfarm_we_doing.php:81 shortcodes/foodfarm_we_doing.php:96
+#: shortcodes/foodfarm_we_doing.php:112 shortcodes/foodfarm_we_doing.php:128
+#: shortcodes/foodfarm_we_doing.php:144 shortcodes/foodfarm_we_doing.php:160
+msgid "Select icon from library."
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:203 shortcodes/foodfarm_gallery.php:83
+#: shortcodes/foodfarm_recipes.php:206 shortcodes/foodfarm_today_menu.php:49
+#: shortcodes/foodfarm_we_doing.php:32
+msgid "Description"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:205 shortcodes/foodfarm_recipes.php:208
+#: shortcodes/foodfarm_today_menu.php:51
+msgid "Enter short description"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:209
+msgid "Number of blog to show"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:216 shortcodes/foodfarm_recipes.php:219
+msgid "Display"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:220 shortcodes/foodfarm_recipes.php:223
+msgid "Recent"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:221 shortcodes/foodfarm_product_list.php:34
+msgid "Featured"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:222 shortcodes/foodfarm_recipes.php:224
+msgid "Most Viewed"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:244 shortcodes/foodfarm_gallery.php:59
+#: shortcodes/foodfarm_our_team.php:51 shortcodes/foodfarm_recipes.php:238
+msgid "Category IDs"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:245 shortcodes/foodfarm_gallery.php:60
+#: shortcodes/foodfarm_our_team.php:52 shortcodes/foodfarm_recipes.php:239
+msgid "comma separated list of category ids"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:252 shortcodes/foodfarm_gallery.php:73
+#: shortcodes/foodfarm_our_team.php:41 shortcodes/foodfarm_recipes.php:245
+#: shortcodes/foodfarm_services.php:27 shortcodes/foodfarm_testimonial.php:49
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:256
+msgid "List"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:257 shortcodes/foodfarm_our_team.php:46
+#: shortcodes/foodfarm_recipes.php:250
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:258 shortcodes/foodfarm_recipes.php:251
+msgid "Grid 2"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:259
+msgid "Grid style 3"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:260
+msgid "Grid style 4"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:261
+msgid "Grid style 5"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:262
+msgid "Grid style 6"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:267
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:272
+msgid "Type sticky"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:276
+msgid "List Default"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:277
+msgid "List With Sticky Left"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:278
+msgid "List With Sticky Right"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:287
+msgid "Blog Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:291 shortcodes/foodfarm_gallery.php:96
+#: shortcodes/foodfarm_product_categories.php:53
+#: shortcodes/foodfarm_recipes.php:260 shortcodes/foodfarm_today_menu.php:73
+msgid "2 Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:292 shortcodes/foodfarm_gallery.php:97
+#: shortcodes/foodfarm_product_categories.php:54
+#: shortcodes/foodfarm_recipes.php:261 shortcodes/foodfarm_today_menu.php:74
+msgid "3 Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:293 shortcodes/foodfarm_gallery.php:98
+#: shortcodes/foodfarm_product_categories.php:55
+#: shortcodes/foodfarm_recipes.php:262 shortcodes/foodfarm_today_menu.php:75
+msgid "4 Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_blog.php:303 shortcodes/foodfarm_container.php:40
+#: shortcodes/foodfarm_gallery.php:109
+#: shortcodes/foodfarm_products_category.php:157
+#: shortcodes/foodfarm_products_filter.php:130
+#: shortcodes/foodfarm_product_list.php:68 shortcodes/foodfarm_recipes.php:281
+#: shortcodes/foodfarm_testimonial.php:113
+msgid "Item delay"
+msgstr ""
+
+#: shortcodes/foodfarm_brands.php:18
+msgid "Foodfarm Brands"
+msgstr ""
+
+#: shortcodes/foodfarm_brands.php:26 shortcodes/foodfarm_testimonial.php:84
+msgid "Posts Count"
+msgstr ""
+
+#: shortcodes/foodfarm_brands.php:33
+msgid "Change the color of all images to white?"
+msgstr ""
+
+#: shortcodes/foodfarm_brands.php:49
+msgid "Items On Tabs"
+msgstr ""
+
+#: shortcodes/foodfarm_container.php:18 shortcodes/foodfarm_container.php:33
+msgid "Container"
+msgstr ""
+
+#: shortcodes/foodfarm_container.php:29
+msgid "Container Type"
+msgstr ""
+
+#: shortcodes/foodfarm_container.php:34
+msgid "Container Fluid"
+msgstr ""
+
+#: shortcodes/foodfarm_container.php:35
+msgid "Wide container"
+msgstr ""
+
+#: shortcodes/foodfarm_featured_product.php:19
+msgid "Featured Product"
+msgstr ""
+
+#: shortcodes/foodfarm_featured_product.php:27
+msgid "Number of featured_product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:20
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:52
+msgid "Number of gallery to show"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:77
+msgid "Layout 1"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:78
+msgid "Layout 2"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:92
+msgid "Gallery Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_gallery.php:103 shortcodes/foodfarm_recipes.php:271
+msgid "Show view more"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:18
+msgid "Instagram Feed"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:26
+msgid "Per page"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:28
+msgid "12"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:29
+msgid "This field  determines how many blogs to show on the page"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:33
+msgid "Show Text"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:40
+msgid "Name account"
+msgstr ""
+
+#: shortcodes/foodfarm_instagram_feed.php:46
+msgid "Example: arrowpress"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:20
+msgid "Our Team"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:28 shortcodes/foodfarm_services.php:38
+#: shortcodes/foodfarm_we_doing.php:26
+msgid "Title"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:30
+msgid "Set the title for our team block"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:34
+msgid "Number of post entries per page"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:37
+msgid "Set the total number of entries to show per page"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:45
+msgid "List Image"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:58
+msgid "Items to show on Desktop"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:62 shortcodes/foodfarm_our_team.php:74
+#: shortcodes/foodfarm_our_team.php:86
+msgid "4"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:63 shortcodes/foodfarm_our_team.php:75
+#: shortcodes/foodfarm_our_team.php:87
+msgid "3"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:64 shortcodes/foodfarm_our_team.php:76
+#: shortcodes/foodfarm_our_team.php:88
+msgid "2"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:65 shortcodes/foodfarm_our_team.php:77
+#: shortcodes/foodfarm_our_team.php:89 templates/foodfarm_blog.php:193
+#: templates/foodfarm_blog.php:292 templates/foodfarm_blog.php:336
+#: templates/foodfarm_blog.php:369 templates/foodfarm_blog.php:520
+msgid "1"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:70
+msgid "Items to show on Tablets"
+msgstr ""
+
+#: shortcodes/foodfarm_our_team.php:82
+msgid "Items to show on Mobile"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:39
+msgid "Select"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:46
+msgid "Products Category"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:68
+msgid "Number of products_category to show"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:129
+msgid "Show Pagination"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:136
+msgid "Show Navigation"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:143
+msgid "Style Navigation"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:147
+msgid "Postion Top"
+msgstr ""
+
+#: shortcodes/foodfarm_products_category.php:148
+msgid "Postion Middle"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:23
+msgid "Products Filter"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:52
+msgid "Product style"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:56
+#: shortcodes/foodfarm_services.php:31
+msgid "Default"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:57
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:58
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:63
+msgid "ID Category Parent"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:70
+msgid "ID excluded categories"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:75
+msgid "Slug Name Category"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:90
+msgid "Show filter"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:97
+msgid "Filter Layout"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:101
+msgid "Tab filter layout 1"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:102
+msgid "Tab filter layout 2"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:103
+msgid "Tab filter layout 3"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:104
+msgid "Tab filter layout 4"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:105
+msgid "Tab filter layout 5 (Show filter icon)"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:110
+msgid "Number of products_filter to show"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:117
+msgid "Show loadmore button"
+msgstr ""
+
+#: shortcodes/foodfarm_products_filter.php:124
+#: shortcodes/foodfarm_services.php:51
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:56
+msgid "5 Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:57
+msgid "6 Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:104
+#: shortcodes/foodfarm_product_categories.php:115
+#: shortcodes/foodfarm_product_categories.php:125
+msgid "No"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:106
+msgid "Hide empty cateogries"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:136
+#: shortcodes/foodfarm_services.php:83 shortcodes/foodfarm_testimonial.php:62
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:142
+msgid "Background color"
+msgstr ""
+
+#: shortcodes/foodfarm_product_categories.php:148
+msgid "Background hover color"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:20
+msgid "Product Small List"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:28
+msgid "Product Type"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:32
+msgid "Recent Products"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:33
+msgid "On Sale"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:35
+msgid "Top Rated"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:40
+msgid "Number of product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_product_list.php:47
+msgid "Slug Name of parent category"
+msgstr ""
+
+#: shortcodes/foodfarm_recent_product.php:17
+msgid "Recent Product"
+msgstr ""
+
+#: shortcodes/foodfarm_recent_product.php:25
+msgid "Number of recent_product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_recipes.php:20
+msgid "Recipes"
+msgstr ""
+
+#: shortcodes/foodfarm_recipes.php:212
+msgid "Number of recipes to show"
+msgstr ""
+
+#: shortcodes/foodfarm_recipes.php:249
+msgid "Slides"
+msgstr ""
+
+#: shortcodes/foodfarm_recipes.php:256
+msgid "Recipes Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_sale_product.php:19
+msgid "Sale Product"
+msgstr ""
+
+#: shortcodes/foodfarm_sale_product.php:27
+msgid "Number of sale_product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:19
+msgid "Services"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:32
+msgid "Layout 2 (Flower Farm)"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:33
+msgid "Layout 3"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:44 shortcodes/foodfarm_we_doing.php:176
+msgid "Link"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:47
+msgid "Link to page services details."
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:61
+msgid "Title align"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:65 shortcodes/foodfarm_services.php:76
+#: shortcodes/foodfarm_testimonial.php:95
+msgid "Center"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:66 shortcodes/foodfarm_services.php:77
+#: shortcodes/foodfarm_testimonial.php:96
+msgid "Left"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:67 shortcodes/foodfarm_services.php:78
+#: shortcodes/foodfarm_testimonial.php:97
+msgid "Right"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:72
+msgid "Block ALignment"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:89
+msgid "Title font size"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:95
+msgid "Icon type"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:100
+msgid "Font Icon"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:101 shortcodes/foodfarm_we_doing.php:165
+msgid "Image"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:106
+msgid "Image icon"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:114 shortcodes/foodfarm_we_doing.php:168
+msgid "Upload image."
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:250 shortcodes/foodfarm_testimonial.php:68
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:257
+msgid "Icon size (px)"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:265
+msgid "Show background title"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:276
+msgid "Background Title"
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:283
+msgid "Upload background image."
+msgstr ""
+
+#: shortcodes/foodfarm_services.php:287
+msgid "Services info"
+msgstr ""
+
+#: shortcodes/foodfarm_slider_wrap.php:19
+msgid "Slider Wrap"
+msgstr ""
+
+#: shortcodes/foodfarm_static_block.php:17
+msgid "Choose a block to display"
+msgstr ""
+
+#: shortcodes/foodfarm_static_block.php:28
+#: shortcodes/foodfarm_static_block.php:36
+msgid "Static Block"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:19
+#: shortcodes/foodfarm_testimonial.php:53
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:54
+msgid "Testimonial 2"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:55
+msgid "Testimonial 3"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:56
+msgid "Testimonial 4"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:57
+msgid "Testimonial 5"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:78
+msgid "Text Color"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:91
+msgid "Block Align"
+msgstr ""
+
+#: shortcodes/foodfarm_testimonial.php:106
+msgid "Show Name Author"
+msgstr ""
+
+#: shortcodes/foodfarm_today_menu.php:17
+msgid "Today Menu"
+msgstr ""
+
+#: shortcodes/foodfarm_today_menu.php:55 templates/foodfarm_today_menu.php:83
+msgid "Sale"
+msgstr ""
+
+#: shortcodes/foodfarm_today_menu.php:62
+msgid "Number of today menu to show"
+msgstr ""
+
+#: shortcodes/foodfarm_today_menu.php:69
+msgid "Today Menu Columns"
+msgstr ""
+
+#: shortcodes/foodfarm_toprate_product.php:19
+msgid "Top Rate Product"
+msgstr ""
+
+#: shortcodes/foodfarm_toprate_product.php:27
+msgid "Number of toprate_product to show"
+msgstr ""
+
+#: shortcodes/foodfarm_we_doing.php:18
+msgid "What we doing"
+msgstr ""
+
+#: templates/foodfarm_blog.php:193 templates/foodfarm_blog.php:292
+#: templates/foodfarm_blog.php:336 templates/foodfarm_blog.php:369
+#: templates/foodfarm_blog.php:520
+msgid "%"
+msgstr ""
+
+#: templates/foodfarm_blog.php:199
+msgid "View more"
+msgstr ""
+
+#: templates/foodfarm_blog.php:199 templates/foodfarm_blog.php:295
+#: templates/foodfarm_blog.php:339 templates/foodfarm_blog.php:390
+#: templates/foodfarm_blog.php:440 templates/foodfarm_blog.php:492
+msgid "Read more"
+msgstr ""
+
+#: templates/foodfarm_blog.php:366
+msgid "posted by"
+msgstr ""
+
+#: templates/foodfarm_blog.php:369
+msgid "0"
+msgstr ""
+
+#: templates/foodfarm_blog.php:426
+msgid "0 Comment"
+msgstr ""
+
+#: templates/foodfarm_blog.php:426
+msgid "1 Comment"
+msgstr ""
+
+#: templates/foodfarm_blog.php:426
+msgid "% Comments"
+msgstr ""
+
+#: templates/foodfarm_gallery.php:142 templates/foodfarm_recipes.php:266
+msgid "View More"
+msgstr ""
+
+#: templates/foodfarm_products_filter.php:132
+#: templates/foodfarm_products_filter.php:194
+msgid "All Products"
+msgstr ""
+
+#: templates/foodfarm_products_filter.php:146
+msgid "All"
+msgstr ""
+
+#: templates/foodfarm_products_filter.php:167
+#: templates/foodfarm_products_filter.php:230
+msgid "Load More"
+msgstr ""
+
+#: templates/foodfarm_products_filter.php:209
+msgid "Show all"
+msgstr ""
+
+#: templates/foodfarm_product_categories.php:95
+msgid "Products"
+msgstr ""
+
+#: templates/foodfarm_recipes.php:184
+msgid "Popular Recipes"
+msgstr ""
+
+#: templates/foodfarm_recipes.php:255
+msgid "More Recipes"
+msgstr ""
+
+#: templates/foodfarm_services.php:131
+msgid "Read More"
+msgstr ""
+
+#. Name of the plugin
+msgid "Foodfarm Shortcodes"
+msgstr ""
+
+#. Description of the plugin
+msgid "Shortcodes for Foodfarm Theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "AHT"
+msgstr ""

@@ -1,0 +1,156 @@
+https://www.zehrs.ca/Food/Bakery/Freshly-Baked-Breads/Rye-%26-Pumpernickel/Pumpernickel-Bread%2C-Unsliced/p/20653517_EA			
+
+(675 g)	
+
+https://www.zehrs.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Baguettes/Ciabatta%2C-Lunga/p/20354747_EA
+
+(390 g)
+
+
+https://www.zehrs.ca/Food/Bakery/Packaged-Breads/Artisan-%26-Specialty/Hot-Cross-Buns%2C-Extra-Raisins/p/20027472_EA
+
+(8x71g)
+
+
+https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/SweeTango-Apples/p/20289213001_KG
+
+Average weight is 0.21 KG
+
+
+
+https://www.zehrs.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Ground-Beef-%26-Burgers/Scale-Label-Div-Extra-Lean-Ground-Beef/p/20357570_KG
+
+
+Average weight is 0.46 KG
+
+
+https://www.zehrs.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Thighs-%26-Legs/Chicken-Thighs-Club-Pack/p/20058163_KG
+
+Average weight is 1.24 KG
+
+
+https://www.zehrs.ca/Food/Meat-%26-Seafood/Fresh-Meat-Counter/Platinum-Top-Sirloin-Oven-Roast/p/20801457_KG
+
+Average weight is 1.24 KG
+
+
+https://www.zehrs.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Soy-Milk/Silk-Creamy-Cashew-Beverage%2C-Unsweetened/p/20863698_EA
+
+(1.89 L)
+
+
+https://www.zehrs.ca/Packaged-Cheeses/Lactose-Free-Milks/Lactose-Free-Skim-Milk/p/20077874004_EA
+
+(2 L)
+
+https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/Red-Delicious-Apples/p/20632238001_EA
+
+(4 lb bag)
+
+https://www.zehrs.ca/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Sour-Cream/Sour-Cream%2C-Regular-14%25/p/20299657_EA
+
+ (500 mL)
+ 
+ 
+ https://www.zehrs.ca/Food/Dairy-and-Eggs/Yogurt/Probiotic/Probiotic-Yogurt%2C-Strawberry/p/20303412003_EA
+ 
+ (12x100g)
+ 
+ https://www.zehrs.ca/Food/Drinks/Juice/Sparkling-Juices/Sparklers%2C-Cranberry-Raspberry/p/20318074002_C12
+ 
+ (12x355mL)
+ 
+ https://www.zehrs.ca/Food/Drinks/Coffee/Coffee-Pods/Barista-Prima-Dark-Roast-Coffee-Italian-Roast/p/20608429002_EA
+ 
+  (12 ea)
+  
+  https://www.zehrs.ca/Food/Drinks/Tea-%26-Hot-Drinks/Black/Bold-Black-Tea/p/20711160_EA
+  
+  (72 ea)
+  
+  https://www.zehrs.ca/Food/Frozen/Ice-Cream-%26-Treats/Popsicles-%26-Fruit-Bars/Firecracker/p/20343500005_EA
+  (12x50mL)
+
+  https://www.zehrs.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Rice/Thai-Jasmine-Rice/p/20705590_EA
+  (8.2 kg)
+  
+  https://www.zehrs.ca/Food/Pantry/Baby-Food-%26-Formula/Bibs-%26-Bottles/Nestle-Gerber-First-Essential-Silicone-Nipples%2C-Fast-Flow/p/20339064_EA
+  (6 pk)
+  
+  https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Berries-%26-Cherries/Strawberries%2C-Club-Pack/p/20069661001_EA
+   (2 lb clamshell)
+   
+   https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Cleaning-Tools/Sponges-%26-Cloths/Magic-Eraser-Kitchen-Scrubber/p/20343526_EA
+   (2 pack)
+   
+   https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Cleaning-Tools/Sponges-%26-Cloths/All-Purpose-Sponges/p/20557334_EA
+   
+   (2 sponges)
+   
+   https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Paper/Facial-Tissue/Ultra-Facial-Tissues-/p/20009467001_EA
+   
+   (6x88sh)
+   https://www.zehrs.ca/Home-%26-Lifestyle/Home-%26-Outdoors/Automotive/Interior-%26-Auto-Accessories/Armor-All-Air-Freshener%2C-Pure-Linen/p/20905034_EA
+   (3x1ea)
+   
+   
+   
+   
+    URLs = ['https://www.zehrs.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Cheddars/Marble-Cheddar/p/20415944_EA', 
+            'https://www.zehrs.ca/Food/Bakery/Freshly-Baked-Breads/Rye-%26-Pumpernickel/Pumpernickel-Bread%2C-Unsliced/p/20653517_EA',
+            'https://www.zehrs.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Baguettes/Ciabatta%2C-Lunga/p/20354747_EA',
+            'https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/SweeTango-Apples/p/20289213001_KG',
+            'https://www.zehrs.ca/Food/Bakery/Packaged-Breads/Artisan-%26-Specialty/Hot-Cross-Buns%2C-Extra-Raisins/p/20027472_EA',
+            'https://www.zehrs.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Ground-Beef-%26-Burgers/Scale-Label-Div-Extra-Lean-Ground-Beef/p/20357570_KG',
+            'https://www.zehrs.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Thighs-%26-Legs/Chicken-Thighs-Club-Pack/p/20058163_KG',
+            'https://www.zehrs.ca/Food/Meat-%26-Seafood/Fresh-Meat-Counter/Platinum-Top-Sirloin-Oven-Roast/p/20801457_KG',
+            'https://www.zehrs.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Soy-Milk/Silk-Creamy-Cashew-Beverage%2C-Unsweetened/p/20863698_EA',
+            'https://www.zehrs.ca/Packaged-Cheeses/Lactose-Free-Milks/Lactose-Free-Skim-Milk/p/20077874004_EA',
+            'https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/Red-Delicious-Apples/p/20632238001_EA',
+            'https://www.zehrs.ca/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Sour-Cream/Sour-Cream%2C-Regular-14%25/p/20299657_EA',
+            'https://www.zehrs.ca/Food/Dairy-and-Eggs/Yogurt/Probiotic/Probiotic-Yogurt%2C-Strawberry/p/20303412003_EA',
+            'https://www.zehrs.ca/Food/Drinks/Juice/Sparkling-Juices/Sparklers%2C-Cranberry-Raspberry/p/20318074002_C12',
+            'https://www.zehrs.ca/Food/Drinks/Coffee/Coffee-Pods/Barista-Prima-Dark-Roast-Coffee-Italian-Roast/p/20608429002_EA',
+            'https://www.zehrs.ca/Food/Drinks/Tea-%26-Hot-Drinks/Black/Bold-Black-Tea/p/20711160_EA',
+            'https://www.zehrs.ca/Food/Frozen/Ice-Cream-%26-Treats/Popsicles-%26-Fruit-Bars/Firecracker/p/20343500005_EA',
+            'https://www.zehrs.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Rice/Thai-Jasmine-Rice/p/20705590_EA',
+            'https://www.zehrs.ca/Food/Pantry/Baby-Food-%26-Formula/Bibs-%26-Bottles/Nestle-Gerber-First-Essential-Silicone-Nipples%2C-Fast-Flow/p/20339064_EA',
+            'https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Berries-%26-Cherries/Strawberries%2C-Club-Pack/p/20069661001_EA',
+            'https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Cleaning-Tools/Sponges-%26-Cloths/Magic-Eraser-Kitchen-Scrubber/p/20343526_EA',
+            'https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Cleaning-Tools/Sponges-%26-Cloths/All-Purpose-Sponges/p/20557334_EA',
+            'https://www.zehrs.ca/Home-%26-Lifestyle/Household-Supplies/Paper/Facial-Tissue/Ultra-Facial-Tissues-/p/20009467001_EA',
+            'https://www.zehrs.ca/Home-%26-Lifestyle/Home-%26-Outdoors/Automotive/Interior-%26-Auto-Accessories/Armor-All-Air-Freshener%2C-Pure-Linen/p/20905034_EA'
+            ]
+			
+			
+			 browser = Watir::Browser.new :chrome
+     browser.goto(URL)
+     sleep 2
+      html_data = Nokogiri::HTML(browser.html)
+      #html_data = Nokogiri::HTML(open(URL)) 
+      product_data = html_data.css('.page-product-display') 
+       product_part_1 = product_data.css('.wrapper-product-info') 
+   #   product_part_2 = product_data.css('.wrapper-complex-description-deal') 
+      puts "Fetching product" 
+
+      product_qty =  product_part_1.css('.product-name-qty').text.clean_it_up 
+        if product_qty && product_qty != "" 
+           if ( product_qty.split(' ').last  == 'g)' )
+           puts "Grams" 
+           end 
+          if ( product_qty.split(' ').last  == 'ea)' )    #https://www.zehrs.ca/Home-%26-Lifestyle/Baby-Care/Baby-Safety/Babyproofing/Safety-1st-New-Cabinet-Slide-Lock/p/20173601_EA
+           puts "Each"
+          end
+          if ( product_qty.split(' ').last  == 'bag)' )
+           puts "Bag" 
+          end
+          if ( product_qty.split(' ').last  == 'clamshell)' ) #  https://www.zehrs.ca/Food/Fruits-%26-Vegetables/Fruit/Berries-%26-Cherries/Strawberries%2C-Club-Pack/p/20069661001_EA
+           puts "clamshell LB"
+          end
+
+       else
+          puts 'test else'
+        end
+
+
+       binding.pry

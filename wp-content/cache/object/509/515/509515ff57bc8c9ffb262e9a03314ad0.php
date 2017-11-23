@@ -1,0 +1,36 @@
+�
+�Y<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:930;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-08-28 07:16:14";s:13:"post_date_gmt";s:19:"2017-08-28 07:16:14";s:12:"post_content";s:6479:"[vc_row el_class="aboutus"][vc_column][vc_column_text]
+<h1 style="text-align: center;"><strong>Medicine Man</strong></h1>
+[/vc_column_text][ultimate_spacer height="32"][vc_column_text]
+<p style="text-align: center;"><strong>The fast, hassle-free online dispensary where you can order Marijuana with one click</strong></p>
+[/vc_column_text][ultimate_spacer height="32"][vc_column_text]
+<div class="wedoing_desc">
+<p style="text-align: left;">Cannot find a good place to order medical marijuana? Worried about searching place after place? Well, you have reached the right destination. Medicine Man is an online dispensary that delivers anywhere in Canada and when we say anywhere, “<a href="http://medicinemanshop.ca/shipping/">WE MEAN IT</a>”. <em></em></p>
+<p style="text-align: left;">Our shop is easy to use; you can quickly verify your age by <a href="http://medicinemanshop.ca/sign-up/">signing up</a> <em></em> and begin shopping where you’ll enjoy both quality and variety with priority <a href="http://medicinemanshop.ca/shipping/">shipping </a><em></em> across Canada.</p>
+<p style="text-align: left;">You simply order weed online and leave the rest to us. We promise to deliver high quality cannabis to your doorstep in to time. Medicine Man helps spread the highest quality of Cannabis dollar for dollar in the world across our great nation, Canada.</p>
+
+</div>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Quality is our Priority</h2>
+<p style="text-align: left;">Bringing the finest quality products to the market is what we keep our focus on. Our team is always working to ensure we price all of our products fairly and honestly. We test all of our products with our staff to verify the quality. If there is a strain that has high demand and we are getting requests for it we will do our best to add it to our <a href="http://medicinemanshop.ca/shop/">shop</a>.</p>
+<p style="text-align: left;">We are a firm believer of easier access to high quality and medical marijuana. We strive to bring the best grade marijuana to our customers making their lives just a little bit happier and healthier. We are always looking for customer feedback. If you’ve made a purchase you’re unhappy with visit our <a href="#">challenge</a><em> </em>page to see if you qualify for a discount on your next order.</p>
+<p style="text-align: left;">Now you don’t have to worry about searching for the right person or the right place to buy high quality cannabis, instead it can all be done by just a simple click at the <a href="http://medicinemanshop.ca/about-us/">Medicine Man</a> online dispensary.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Our mission and Vision</h2>
+<p style="text-align: left;">Our mission is simple. Provide discreet, quick and safe access to high grade cannabis for everyone over the legal age across Canada. We believe everyone in Canada deserves access to high grade cannabis whether it’s for medicine or recreational use. Our goal is to serve the Canadian community and we do it through an online dispensary where we do our best to spread the highest quality of cannabis across Canada.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Privacy Protection</h2>
+<p style="text-align: left;">We provide a secure and protected method of buying from our online dispensary. Your <a href="http://medicinemanshop.ca/privacy-policy/">privacy<em></em> </a>is our main concern. We use high security firewalls for our databases. We make sure to clean our databases from any logs regularly. Our packaging is completely discreet. We keep all of your information hidden and do not share any information with any 3rd parties.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Strong Market Network</h2>
+<p style="text-align: left;">Being in this field for years, we have carved a name for ourselves in this market. With our strongly built networks, we make sure to offer the finest quality to Canadians with ease of access.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Reliability is our Guarantee</h2>
+<p style="text-align: left;">With our strong network and market leading qualities, we offer the best customer services. We work on making strong relations with our customers. You can rely on us to deliver every time what you need. Our determination to get positive responses and feedback from users is unparalleled.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Fast and Secure Shipping</h2>
+<p style="text-align: left;">Our professional team makes sure to seal every package discreetly. Your order will be safe in our airtight and smell-free seals. You can be anywhere in Canada but we will find you and deliver just what you ordered in no time. Our fast and secure shipping allows us to build trust with our customers. All your shipping related queries are entertained without any delay. You never have to worry about missing package as we take care of it. Our goal is to ensure your order reaches your doorstep without any hassle.</p>
+[/vc_column_text][ultimate_spacer height="22"][vc_column_text]
+<h2 style="text-align: left;">Price Guarantee</h2>
+<p style="text-align: left;">Our foundational values at Medicine Man are that everyone deserves access to high quality cannabis. Neither should location or price be a hinderance to you receiving your marijuana through the mail. To ensure we are being fair to everyone and equaling the playing field we truly charge all of our bud lower than the competition. Medicine Man is connected to some of the most advanced distributers and farmers, so we offer the very high quality cannabis however we don't put a high price tag on it.</p>
+We charge quads from $9.5/g to a maximum of $11.50/g which is significantly lower than the competition. We don't want to point fingers, but there are online dispensaries out there charging $12-$15 for the same cannabis quality. We even offer you a challenge to check the Quality we mention on a strain and if you tested it somewhere that was better you may be eligible for a discount for your next order. Check our <a href="http://medicinemanshop.ca/faq/">FAQ</a> for details.[/vc_column_text][ultimate_spacer height="22"][/vc_column][/vc_row]";s:10:"post_title";s:8:"About us";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:8:"about-us";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-10-10 18:38:01";s:17:"post_modified_gmt";s:19:"2017-10-11 02:38:01";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:41:"http://medicineman.menu/demo/?page_id=930";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

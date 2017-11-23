@@ -1,0 +1,111 @@
+.header-v5{
+	.megamenu .dropdown-menu{
+		#{$left}: 15px;
+	}
+	.contact_v5{
+		i{font-size: 24px; color: #94c347; margin-#{$right}: 10px; display: block; float: $left; margin-top: 2px;}
+	}
+	.cart-block{top:54px;}
+	&.is-sticky{
+		.sticky-logo{top: 6px; #{$left}: 15px;}
+		.menu-primary-menu-container{
+			background: transparent;
+		}
+		.main-navigation{
+			background: #3a3a3b;
+			padding: 1px 0 4px;
+			.mega-menu > li > a{
+				color: #afafaf;
+			}
+		}
+		.right-header{
+			color: #afafaf;
+		}
+		.mini-cart.hidden-lg{
+			&:before{height: 0;}
+			display: inline-block !important; 
+			margin-#{$left}: 13px;
+			.cart_label i {
+				color: #fff;
+			}
+		}
+	} 
+	.right-header{
+		float: none;
+	}
+	.search-block-top > .btn-search{
+		color: #fff;
+		border: 0;
+		padding: 15px 10px 18px;
+		&:hover{
+			color: #fff;
+		}
+	}
+	.header-bottom{
+		padding: 27px 0;
+	}
+	.padding_10{padding-top: 10px;}
+	.menu-primary-menu-container{
+		background-color: #94c347;
+		text-align: center;
+	}
+	.main-navigation{
+		border: 0;
+		margin-bottom: 30px;
+		.mega-menu > li > a{border: 0; color: #fff; padding: 20px;}
+	}
+	.header-bottom, .main-navigation{
+		background-color: transparent;
+	}
+	.header-top{
+		background: #f2f2f2;
+	}
+	.header-slogan .link-contact p{
+		color: #afafaf;
+	}
+	.top-link .customlinks::before{
+		height: 0;
+	}
+	.top-link .customlinks > a{
+		color: #afafaf;
+		i{
+			color: $primary_color;
+			margin-#{$right}: 3px;
+		}
+	}
+	.cart_label{
+		border-#{$right}: 0;
+		padding: 0;
+		i{font-size: 24px; color: #94c347;}
+	}
+	.mini-cart .number-product{
+		#{$right}: -7px;
+    	top: -7px;
+    	background: #94c347 none repeat scroll 0 0;
+	    border-radius: 50%;
+	    color: #ffffff;
+	    font-size: 10px;
+	    height: 20px;
+	    line-height: 20px;
+	    position: absolute;
+	    text-align: center;
+	    width: 20px;
+	}
+	.mini-cart{
+		position: relative;
+		&:before{
+			background: #000 none repeat scroll 0 0;
+		    content: "";
+		    height: 13px;
+		    position: absolute;
+		    #{$right}: -11px;
+		    top: 9px;
+		    width: 1px;
+		}
+		span{margin-#{$left}: 10px; color: #1d1d1d;}
+	}
+	.cart_5 > span.amount{
+		margin-#{$left}: 20px;
+		color: #afafaf;
+	}
+}

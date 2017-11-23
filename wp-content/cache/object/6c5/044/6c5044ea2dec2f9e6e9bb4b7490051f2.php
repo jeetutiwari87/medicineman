@@ -1,0 +1,2 @@
+ı
+ÂY<?php exit; ?>a:1:{s:7:"content";s:360:"a:10:{s:4:"name";s:7:"Firefox";s:7:"version";s:4:"56.0";s:8:"platform";s:7:"Windows";s:10:"update_url";s:24:"https://www.firefox.com/";s:7:"img_src";s:44:"http://s.w.org/images/browsers/firefox.png?1";s:11:"img_src_ssl";s:45:"https://s.w.org/images/browsers/firefox.png?1";s:15:"current_version";s:2:"56";s:7:"upgrade";b:0;s:8:"insecure";b:0;s:6:"mobile";b:0;}";}

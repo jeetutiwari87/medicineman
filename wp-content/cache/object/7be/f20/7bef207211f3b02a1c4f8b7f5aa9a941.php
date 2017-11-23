@@ -1,0 +1,1 @@
+–ÂY<?php exit; ?>a:1:{s:7:"content";a:5:{s:16:"sidebar_position";a:1:{i:0;s:7:"default";}s:7:"sidebar";a:1:{i:0;s:7:"default";}s:11:"filter_icon";a:1:{i:0;s:0:"";}s:17:"list_mode_product";a:1:{i:0;s:12:"grid-default";}s:13:"category_cols";a:1:{i:0;s:1:"3";}}}

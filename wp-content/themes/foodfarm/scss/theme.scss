@@ -1,0 +1,32 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+$rtl: 0;
+$dir: ltr !default;
+
+@import "plugins/directional";
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.eot'); 
+	src: url('../fonts/MyriadPro-Regular.otf')  format('opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Willona';
+	src: url('../fonts/Willona.otf')  format('opentype'), url('../fonts/Willona.ttf') format('truetype'), url('../fonts/Willona Brush.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GreatVibes';
+	src: url('../fonts/GreatVibes-Regular.otf')  format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@import 'config/config_skin';
+@import "typography";
+@import "theme/theme-main";                
+// Custom
+@import "theme/base/wp-theme";  

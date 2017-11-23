@@ -1,0 +1,40 @@
+#search-result {
+    color: #666666;
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    border-bottom: 1px solid #ddd;
+}
+#search-result li{
+    background: url("images/kbe_icon_search_list.png") no-repeat scroll left 16px top 13px rgb(255, 255, 255);
+    list-style: none outside none;
+    padding: 0px 0 0px 8px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#search-result li a {
+    background-position:20px center;
+    background-repeat:no-repeat;
+    display:block;
+    color:#595959;
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    padding:12px 20px 12px 10px;
+}
+#search-result li a:hover {
+    color: #666666 !important;
+    text-decoration: none;
+    font-weight: normal;
+}
+#search-result li:hover{
+    color: #333333 !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    background-color: #f8f8f8;
+}

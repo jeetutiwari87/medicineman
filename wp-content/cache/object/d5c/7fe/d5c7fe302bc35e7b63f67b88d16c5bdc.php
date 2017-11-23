@@ -1,0 +1,29 @@
+S<æY<?php exit; ?>a:1:{s:7:"content";C:24:"WPSEO_Sitemap_Cache_Data":1484:{a:2:{s:6:"status";s:2:"ok";s:3:"xml";s:1436:"<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://medicinemanshop.ca/blog/</loc>
+	</url>
+	<url>
+		<loc>http://medicinemanshop.ca/lorem-ipsum-is-simply-dummy-text-of-the-printing/</loc>
+		<lastmod>2017-09-06T05:43:39-08:00</lastmod>
+		<image:image>
+			<image:loc>http://medicinemanshop.ca/wp-content/uploads/2017/08/111.jpg</image:loc>
+			<image:title><![CDATA[111]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://medicinemanshop.ca/lorem-ipsum-is-simply-dummy-text-of-the-printing-3/</loc>
+		<lastmod>2017-09-06T05:52:01-08:00</lastmod>
+		<image:image>
+			<image:loc>http://medicinemanshop.ca/wp-content/uploads/2017/08/222.jpg</image:loc>
+			<image:title><![CDATA[222]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://medicinemanshop.ca/lorem-ipsum-is-simply-dummy-text-of-the-printing-2/</loc>
+		<lastmod>2017-09-06T05:58:48-08:00</lastmod>
+		<image:image>
+			<image:loc>http://medicinemanshop.ca/wp-content/uploads/2017/08/333.jpg</image:loc>
+			<image:title><![CDATA[333]]></image:title>
+		</image:image>
+	</url>
+</urlset>";}}}

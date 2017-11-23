@@ -1,0 +1,109 @@
+.main-slider{
+	position: relative;
+	width: 100%;
+}
+.tp-banner-container{
+	.tp-bannertimer{
+		display: none;
+	}
+	.tp-bullets{
+		&.hidebullets{
+			opacity: 1 !important;
+		}
+		&.preview4 {
+			.bullet {
+			  background: #ffffff !important;
+			  border: 1px solid #fff !important;
+			  border-radius: 3px !important;
+			  box-shadow: none;
+			  height: 2px !important;
+			  margin-bottom: 0 !important;
+			  margin-#{$right}: 5px !important;
+			  width: 40px !important;
+			  &:hover,&.selected {
+				  background: #94c347!important;
+				  border: none !important;
+				  box-shadow: none;
+				  height: 4px!important;
+				  width: 42px !important;
+				}
+			}
+		}
+	} 
+	.tp-bullets {
+	  z-index: 50;
+	}
+	.btn, .btn .fa {
+	  height: auto !important;
+	} 
+} 
+.slotholder{
+	position: relative;
+	&::before {
+	  background: none;
+	  content: "";
+	  height: 100%;
+	  #{$left}: 0;
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1;
+	}
+}
+.tp-banner-container .tp-bullets.hidebullets {
+  bottom: 40px !important;
+}
+.home7_btn_slider{
+	color: #fff;
+	&:hover{
+		color: $primary_color;
+		border-bottom-color: $primary_color !important;
+	}
+}
+.home8_btn_slider{
+	color: #fff;
+    font-size: 14px;
+    padding: 10px 23px 11px;
+    border: 1px solid #fff;
+	&:hover{
+		background: $primary_color;
+		border: 1px solid $primary_color;
+		color: #fff;
+	}
+}
+.bottom_slick_btn{
+	.slick-slide{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.slick-next, .slick-prev{
+	    height: 40px !important;
+	    width: 40px !important;
+	    border: 1px solid #ddd !important;
+	    top: auto;
+	    bottom: -40px;
+	    &:hover{
+	    	background: $primary_color !important;
+	    	border-color: $primary_color !important;
+	    	color: #fff !important;
+	    }
+	}
+	.slick-next {
+	    #{$right}: 45.2% !important;
+	}
+	.slick-prev {
+	    #{$left}: 46.2% !important;
+	}
+	.ultsl-arrow-right4:before,.ultsl-arrow-left4:before{
+	  content: "\f105";
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	}
+	.ultsl-arrow-left4:before{
+	  content: "\f104";
+	}
+	.slick-next::before, .slick-prev::before{
+		font-family: FontAwesome;
+	}
+}

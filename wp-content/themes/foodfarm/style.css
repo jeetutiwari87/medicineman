@@ -1,0 +1,85 @@
+/*
+Theme Name: FoodFarm
+Theme URI: http://hn.arrowpress.net/foodfarm/
+Author: AHT
+Author URI: http://arrowhitech.com/
+Description: Foodfarm - WordPress Theme for Farm, Farmers and Food, Organic.
+Version: 1.6.7
+License: 
+License URI: 
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: foodfarm
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+ .product-grid .select_box_label.select_box.attribute_pa_doob-amount,.product-grid .variations{display:none}.product-content::before,.product-grid .product-content::before,.shadow3:after,.shadow3:before{bottom:0;content:""}.product-grid .product-img{padding-bottom:0;text-align:center}.product-grid .product-desc{position:relative}.product-grid .product-action-grid{background:#94C347;border-radius:5px;display:none;margin:0;padding:0;position:absolute;bottom:0;width:100%}.footer .widget_nav_menu li,.list-info li,.product-categories>li,.product-desc h3 a,.recentcomments a,.widget.widget_archive ul>li>a,.widget.widget_categories ul>li>a,.widget.widget_foodfarm_recipe_categories ul>li>a,.widget.widget_meta ul>li>a,.widget.widget_pages li a,.widget_categories_list>li>a,.widget_nav_menu_findus .footer-menu li,.widget_post_blog .blog-content .post-name a,.widget_price_filter .price_slider_amount .price_label,.widget_shopping_cart_content .cart-info .product-name a,.yith-woocompare-widget ul.products-list li a.title{font-size:12px}.product-grid ul li:hover .product-action-grid{display:block}.product-grid .price{background:#dcdcdc}.product-grid .product-action-grid .button{color:#fff;float:right;font-size:20px;margin:5px 0 0;padding:4px;width:100%}.product-content:hover .add-to{margin-left:-116px}.product-grid .extraAtt{font-size:10px;text-align:left;display:table;width:100%}.extraAtt .custom-cbd,.extraAtt .custom-grade,.extraAtt .custom-thc,.product-grid .extraAtt .custom-types{display:table-cell;font-size:12px;line-height:20px;vertical-align:middle}.extraAtt .custom-cbd,.extraAtt .custom-grade,.product-grid .extraAtt .custom-thc{background-color:#fff;font-size:12px;padding:0 10px;text-align:center}.product-grid .extraAtt .custom-types{padding:7px 10px}.extraAtt{display:table;width:100%}.extraAtt .custom-cbd,.extraAtt .custom-grade,.extraAtt .custom-thc,.extraAtt .custom-types{display:table-cell;vertical-align:middle}.product-action::before,.product-grid .price br,.product-grid .yith-wcwl-wishlistexistsbrowse span{display:none}.extraAtt .custom-cbd,.extraAtt .custom-grade,.extraAtt .custom-thc{background-color:#fff;padding:0 10px;text-align:center}.product-content{background-color:#f0f0f0;border:none;padding:15px}.extraAtt .custom-types{background-color:#dcdcdc;padding:7px 10px;text-align:right}.product-grid .price{background-color:#94C347;margin:0 0 12px;padding:0 15px 10px;text-align:center}.product-grid .price span{color:#000;text-align:left}.product-grid .product-desc h3{background-color:#94C347;font-size:14px;font-weight:400;margin:10px 0 0;padding:15px 15px 10px;text-align:center;text-transform:none}.product-grid .product-desc h3 a{color:#fff;font-size:18px;font-weight:700}.product-grid .ratingbox{background-color:#94C347;padding:0 5px}.product-grid .product-desc{height:auto;padding:0}.product-grid .product-content::before{background-color:rgba(0,0,0,.8);border-radius:10px;transition:all .2s ease 0s;opacity:0;left:0;position:absolute;right:0;top:0;z-index:4}.product-grid .product-content{position:relative}.product-grid .product-action-grid{z-index:9}.product-content:hover .add-to{border-radius:0;left:0;margin:auto;opacity:1;right:0;top:-60px;width:40px}.product-desc .add-to a{border-radius:5px}.product-desc .add-to{left:0;width:40px}.extraAtt .custom-cbd div,.extraAtt .custom-grade div,.product-grid .extraAtt .custom-thc div{font-size:13px;font-weight:400}.extraAtt .custom-cbd .cbd-text,.extraAtt .custom-grade .grade-text,.product-grid .extraAtt .custom-thc .thc-text{color:#000}.product-grid .star-rating span::before,.product-grid .star-rating::before{color:#fff}.custom-types .type-title{color:#000;font-weight:700}.col-md-12.col-sm-12.col-xs-12.text-center .btn.btn-default.btn-icon{margin:30px 0 50px;padding:0}.col-md-12.col-sm-12.col-xs-12.text-center .btn.btn-default.btn-icon .wpcf7-form-control.wpcf7-submit{margin:0;padding:0}input.form-control[type=checkbox]{display:inline-block;float:none;margin:0 10px 0 0;vertical-align:middle;width:auto}input.form-control[type=file]{height:auto}p.form1 br{display:none}.login,.singlink{width:45%;margin:auto}.registration-form .fullbox{margin:0 0 5px;width:100%;display:inline-block}.p-strains-details .p-strains-type,.p-strains-details .p-thc-details{border-radius:3px;margin:0 6px 6px 0;padding:0 12px;height:22px;line-height:22px}.availability,.stock,.woocommerce-variation-availability{display:none}.registration-form .half{width:47%;float:left}.registration-form .fullbox .half:last-child{float:right}.shadow3:after,.shadow3:before{position:absolute;top:2px;left:15px;right:15px;z-index:-1;-webkit-box-shadow:0 0 30px 2px #479F41;-moz-box-shadow:0 0 30px 2px #479F41;box-shadow:0 0 30px 2px #479F41}.p-strains-details .p-strains-type.sativa{background-color:#ffce03;color:#1a1229}.p-strains-details .p-strains-type{background-color:#7154a0;color:#fff;display:inline-block;font-size:12px;letter-spacing:1px;text-align:center;text-transform:uppercase}.p-strains-details .p-thc-details{background:#1a1229;display:inline-block}.p-strains-details .p-thc-details span.p-thc-title,.p-strains-details .p-thc-details span.p-thc-val{color:#fff}.sativa-text{color:#ffce03}div.product div.summary form.cart .variations .select_option.selected{background:#00a551}div.product div.summary form.cart .variations .select_option{margin-top:10px;background-color:#e8e8e8;border-color:transparent;border-radius:6px;margin-right:8px}.info .summary .product-desc h3{background-color:rgba(0,0,0,0);color:#333;font-size:20px;font-weight:700;margin-top:-2px;padding:0;text-transform:uppercase}.info .summary .star-rating{background-color:rgba(0,0,0,0);margin-bottom:2px;margin-top:10px;position:relative;right:auto}.info .star-rating span::before{color:#333!important}.info .summary p{background-color:rgba(0,0,0,0);color:#868686;line-height:22px;margin-bottom:21px;padding:0}.product-content:hover::before{opacity:1}.product-content::before{background-color:rgba(0,0,0,.5);left:0;opacity:0;pointer-events:none;position:absolute;right:0;top:0;z-index:9}.product-grid .product-action{pointer-events:auto}.entry-summary .extraAtt div{color:#fff;display:inline-block;float:none}.p-strains-details .p-cbd-details,.p-strains-details .p-grade-details{background:#1a1229;border-radius:3px;display:inline-block;height:22px;line-height:22px;margin:0 6px 6px 0;padding:0 12px}.p-strains-details{margin-bottom:15px}.p-strains-details .p-common-details{background:#1a1229;border-radius:3px;display:inline-block;height:22px;line-height:22px;margin:0 6px 6px 0;padding:0 12px;width:auto}.entry-summary div .indica-text{color:#ffce03}.select_option .yith_wccl_value{padding:3px 10px}.selected.select_option .yith_wccl_value{color:#fff}.price .amount{color:#b7dc36}.yith-wcwl-wishlistexistsbrowse .feedback::before{border-right:10px solid rgba(51,51,51,.8);border-top:10px solid transparent;content:"";height:0;position:absolute;right:0;top:-10px;width:0}.yith-wcwl-wishlistexistsbrowse .feedback{background-color:rgba(51,51,51,.8);border-radius:5px 0 5px 5px;bottom:-50px;color:#fff;font-size:12px;line-height:normal;padding:5px 10px;position:absolute;right:0;text-align:center;width:165px}.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right.vc_tta-panel-title>a{padding-right:42px!important}.woocommerce table.wishlist_table thead th{padding:10px 20px}.widget.woocommerce.widget_product_search .btn-search{background-color:#3a3a3b;border:0;border-radius:0 5px 5px 0;color:#fff;height:39px;padding:0 15px}.also-like .product-action{background:#94c347;border-radius:5px;bottom:0;display:none;margin:0;padding:0;position:absolute;z-index:9;width:100%}.also-like .product-content:hover .product-action{display:block}.also-like .product-action a{color:#fff;display:block;font-size:19px;line-height:42px}.product-desc .add-to{margin:auto;right:0}.product-desc .add-to a{color:#94c347;font-size:15px;line-height:35px}@media (max-width:767px){.woocommerce.columns-4 ul li{padding:0;width:100%}.product-grid ul li .product-action-grid{display:block!important;position:static}.product-grid ul li .product-action-grid .yith-wcwl-wishlistexistsbrowse.show{display:none!important}.ult_tabs{margin:auto auto 0}.product-content:hover::before{opacity:0}.also-like .product-action{display:block!important;margin:10px 0 0;position:static}.content-primary{padding:0 15px}.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right.vc_tta-panel-title>a{line-height:normal;padding-right:42px}.product-grid .product-content::before{display:none}.blog-ful .blog-item .post-name a{font-size:16px}.content-main:not(.main-sidebar){padding:0 15px}.info .summary.entry-summary .product-desc .add-to{margin:10px 0 0;position:relative;text-align:right;width:100%}.info .summary.entry-summary .product-desc .add-to a{display:inline-block;padding:0 10px 0 0;text-align:center}.product-grid .product-content .add-to{left:auto!important;margin-left:0!important;opacity:1!important;position:absolute!important;right:10px!important;top:-55px!important}.nav-tabs>li.active>a,.nav.nav-tabs.tabs.wc-tabs li a{margin:0}}
+.error{background:0 0!important}#errormessage{background:rgba(0,0,0,0);margin-bottom:30px}#errormessage li::before{content:"";font-family:FontAwesome;font-size:20px;font-style:normal;font-weight:400;margin-left:5px;margin-right:19px;text-decoration:inherit}#errormessage li{background:#ff7f7f;color:#fff;margin-bottom:5px;padding:8px 13px 13px 9px}.wpcf7-form-control{background:rgba(0,0,0,0);color:#fff;font-size:14px;font-weight:700;height:40px;margin:0;min-width:121px;padding:0 20px 0 0;text-align:center;text-transform:uppercase}.inst{width:100%;margin:10px 0;color:#337ab7} 
+.product-desc .description h3,.product_meta .sku_wrapper{ display:none;}
+.product-grid .product-desc h3 { 
+  min-height: 50px;
+  line-height: normal;
+  margin: 10px 0 0;
+  padding: 10px 15px 0;
+}
+.custom-types .type-text {
+  line-height: normal;
+  min-height: 30px;
+}
+ 
+div.wpcf7-mail-sent-ok {
+  position: relative;
+  z-index:1 !important;
+}
+.search-block-top .woosearch-results .product_list_widget li .product-img {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.search-block-top .product-img img {
+  width: 90px;
+}
+.search-block-top .product-content {
+  background-color: rgb(240, 240, 240);
+  border: medium none;
+  padding: 5px 10px;
+}
+.search-block-top .woosearch-results ul {
+  padding: 10px;
+}
+.search-block-top h3.product_title:hover a, .search-block-top h3.product_title:hover a span {
+  color: rgb(148, 195, 71) !important;
+}
+.search-block-top h3.product_title a span {
+  transition: all 0.4s ease 0s;
+}
+.search-block-top .woosearch-results ul > li {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.search-block-top .woosearch-results ul > li.item-product-grid {
+  border: 1px solid rgb(221, 221, 221);
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+.search-block-top .product-content {
+  position: relative;
+}.search-block-top .widget_add_to_cart {
+  padding: 0 !important;
+}
+.search-block-top .product-content h3, .search-block-top .product-content .price, .search-block-top .product-content .widget_add_to_cart {
+  display: block;
+  float: none;
+  text-align: center;
+}
+.extraAtt .custom-cbd .cbd-text, .extraAtt .custom-grade .grade-text, .product-grid .extraAtt .custom-thc .thc-text { 
+  min-height: 30px;
+}
+.page-numbers .current::before {
+  border: 1px solid rgb(148, 195, 71);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

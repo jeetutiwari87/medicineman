@@ -1,0 +1,38 @@
+//Footer v3
+.footer-v3{
+	.newsletter-footer {
+	  padding: 30px 0 28px;
+	  border: none;
+	  width: 100%;
+	 	input {
+		   padding-#{$right}: 20px;
+    		width: 54%;
+		}
+		.btn {
+		  #{$right}: 0;
+		  top: 0;
+		}
+		.newsletter-title{
+			margin-bottom: 18px;
+		}
+	}
+	.footer-menu-list .list-style{
+		border-bottom: none;
+		&:last-child{
+			border-#{$right}: none;
+		}
+	}
+	form{
+		width: 100%;
+		position: relative;
+		float: $left;
+	}
+	.footer-home p{
+	    color: #868686;
+	    margin-bottom: 0;
+	    line-height: 20px;
+	    padding-top: 5px;
+	    padding-bottom: 22px;
+	    border-bottom: 1px solid #555556;
+	}
+}

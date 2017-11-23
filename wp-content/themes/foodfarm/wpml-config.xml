@@ -1,0 +1,21 @@
+<wpml-config>
+    <admin-texts>
+        <key name="foodfarm_settings">
+            <key name="blog-title" />
+            <key name="recipe-title" />
+            <key name="press-media-title" />
+            <key name="footer-copyright" />
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="translate">facebook</custom-field>
+        <custom-field action="translate">twitter</custom-field>
+        <custom-field action="translate">google</custom-field>
+        <custom-field action="translate">media_press_link</custom-field>
+        <custom-field action="translate">prep</custom-field>
+        <custom-field action="translate">ready</custom-field>
+        <custom-field action="translate">serving</custom-field>
+        <custom-field action="translate">custom_tab_title</custom-field>
+        <custom-field action="translate">custom_tab_content</custom-field>
+    </custom-fields>
+</wpml-config>

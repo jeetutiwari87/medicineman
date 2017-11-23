@@ -1,0 +1,102 @@
+//Comimg soon
+.page-coming-soon{
+  background-image:url("../images/background/coming-soon.jpg");
+  background-size:cover;
+  padding:0;
+  background-position: center center;
+  position: relative;
+  &.has-overlay{
+    &::before {
+     opacity: 0.8;
+     z-index: 0; 
+     background: #3f3f3f;
+    }
+  }
+   .time-coundown .time_circles > div{
+    #{$left}: 50% !important;
+    top:20px !important;
+   }
+    .time-coundown .time_circles > div.textDiv_Hours{
+     margin-#{$left}: -100px !important;
+   }
+    .time-coundown .time_circles > div.textDiv_Days{
+     margin-#{$left}: -200px !important;
+   }
+    .time-coundown .time_circles > div.textDiv_Minutes{
+     margin-#{$left}: 0px !important;
+   }
+   .time-coundown .time_circles > div.textDiv_Seconds{
+     margin-#{$left}: 100px !important;
+   }
+  .time-coundown .time_circles > div > h4 {
+    color: #fff;
+    font-size: 10px !important;
+  }
+  .time-coundown .time_circles > div > span{
+    color: #fff;
+    font-size: 36px !important;
+    margin-top: 0.1em !important;
+  }
+  .container, .row, .coming-soon-container{
+    height: 100%;
+  }
+  .logo {
+    margin-top: 54px;
+  }
+  form{
+    position: relative;
+    width: 476px;
+    margin: 48px auto 0;
+  }
+  button{
+    position: absolute;
+    #{$right}: 0;
+    top: -1px;
+    &.btn{
+      padding: 14px 16px 13px;
+      border-radius: corner-values(0 4px 4px 0);
+    }
+  }
+  input{
+    width: 100%;
+    padding-bottom: 14px;
+    padding-#{$right}: 125px;
+    border-radius: 4px;
+    height: 50px;
+    background: #fff;
+  }
+}
+.coming-soon {
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translateY(-50%); 
+  -moz-transform: translateY(-50%); 
+  -ms-transform: translateY(-50%); 
+  -o-transform: translateY(-50%); 
+  transform: translateY(-50%); 
+  margin-top: 50px;
+  top:50%;
+  z-index: 1;
+}
+.coming-sub{
+   color: #fff;
+   h1{
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #fff;
+   }
+   h2{
+    font-size: 36px;
+    color: #fff;
+    span{
+      color: #94c347;
+    }
+   }
+  p{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: none;
+  }
+}

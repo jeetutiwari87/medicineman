@@ -1,0 +1,220 @@
+@charset "UTF-8";
+body {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 14px;
+  color: #696969;
+  line-height: 1.42857;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: inherit;
+  background-attachment: inherit;
+  background-color: #fff;
+}
+p {
+  line-height: 24px;
+}
+.main-bg .ubtn, .main-bg.ubtn-link, .main-bg.wpb_column > .vc_column-inner {
+  background: #94c347;
+}
+.side-breadcrumb {
+  background-image: url('//medicinemanshop.ca/wp-content/uploads/2017/08/doob_breadcrumb.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: inherit;
+}
+.header-bottom, .main-navigation {
+  background-color: #3a3a3b;
+}
+.header-v7 .header-top {
+  background: #b7dc36 !important;
+  color: #fff;
+}
+.header-v7 .header-bottom, .header-v7 .main-navigation {
+  background: #fff;
+  color: #777;
+}
+.footer-v7 {
+  background: #fff;
+  color: #555;
+}
+.footer-v7 .footer-top {
+  background-image: url('//medicineman.menu/demo/wp-content/themes/foodfarm/images/bg-footer-top.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: inherit;
+}
+.footer-v7 .widget-title {
+  color: #222;
+}
+.footer-top {
+  background-color: #3a3a3b;
+}
+.footer-v2 .footer-top {
+  background-color: #f5f5f5;
+}
+.bg-footer {
+  background-image: url('http://medicineman.menu/demo/wp-content/themes/foodfarm/images/bg-footer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+}
+.footer-v6 {
+  background-image: url('http://medicineman.menu/demo/wp-content/themes/foodfarm/images/bg-footer-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+}
+h1 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 36px;
+}
+h2 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 36px;
+}
+h3 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 25px;
+}
+h4 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 16px;
+}
+h5 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 14px;
+}
+h6 {
+  font-family: inherit;
+  color: #696969;
+  font-size: 12px;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #94c347;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #94c347;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #94c347;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #94c347;
+}
+.header-v5 .top-link .customlinks > a i, .header-v5 .cart_label i, .header-v5 .contact_v5 i, .header-v4 .top-link .customlinks i, .services-part .services-icon i, .footer-v4 .widget li a:hover, .footer-v1 address a:hover, .icon-2 .path1::before, .icon-2 .path2::before, .icon-2 .path3::before, .vc_icon_element.about-icon:not(.hover-off) .icon .vc_icon_element-inner .vc_icon_element-icon span::before, .about-icon .desc h5, .about-icon .desc h3, .vc_icon_element.about-icon:not(.hover-off) .icon .vc_icon_element-inner .vc_icon_element-icon, .widget_shopping_cart_content .cart-info .product-name a:hover, .widget_shopping_cart_content .remove-product:hover, a:focus, a:hover, .search-block-top .btn-search:hover, .top-link .customlinks > a:hover, .mega-menu .dropdown-menu li a:hover, .vc_icon_element.about-icon .icon .vc_icon_element-inner .vc_icon_element-icon, .custom-icon-class, .vc_icon_element.icon .vc_icon_element-inner .vc_icon_element-icon > span, .widget.widget_tag_cloud a:hover, .blog-info .info:hover i, .links-info .info a.liked, .woocommerce-account form.login p.lost_password a, .category .blog-info a:hover, .promo-banner h2 a:hover, .my_account header.title a, .woocommerce-account table.my_account_orders tbody a.view, .shop_table .product-thumbnail > a:hover, .product-desc .add-to-cart span, .product-desc .add-to a, .product-desc h3 a:hover, .star-rating span::before, .single_add_to_cart_button, .recipes-content .blog-item .post-name a, .icon-title .icon-8, .gallery-desc a:hover, .blog-content .post-name a:hover, .blog-ful .blog-item .post-name a, .blog-info .read-more a, .list-info li i, .search-block-top .btn-search:focus, .search-block-top .btn-search:active, .header-v2 .link-contact p a:hover, .header-v2 .top-link .customlinks:hover > a, .featured-package .product-desc h3 a, .vertical-menu .mega-menu li a:hover, .star-rating::before, .footer-v3 address a:hover, .controls-custom .owl-controls .owl-buttons div:hover, #yith-quick-view-close:hover, table.compare-list .stock td span, table.compare-list .remove td a:hover, .page-numbers .current, .page-numbers > li:hover a, .page-numbers > li:hover span, .viewmode-toggle a:hover, .viewmode-toggle a:focus, .viewmode-toggle a.active, .images .views-block .controls-custom .owl-controls .owl-buttons div:hover, .info .summary .share-email a:hover, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .addthis_sharing_toolbox .f-social li:hover a, .nav-tabs > li.active > a, .stars a.active::after, .yith-woocompare-widget ul.products-list li a.title:hover, .blog .blog-ful .blog-item .post-name a:hover, .blog .blog-info a:hover, .widget_post_blog .blog-content .post-name a:hover, .widget_post_blog .blog-info .info a:hover, .recentcomments a:hover, .blog .blog-ful .blog-post-info .info:hover i, .blog_post_desc p a, .links-info .info:hover a, .breadcrumb li a:hover, .recipes-list-container .read-more a, .knowledge-list-content ul li::before, .knowledge-list-content ul li a:hover, .recipes-list-container .blog-info a:hover, .press-media .read-more a, .recipes-prep .icon, .recipes-servings .icon, .vc_tta-tabs.vc_tta-style-foodfarm_style ul.vc_tta-tabs-list li.vc_active a, .vc_tta-tabs.vc_tta-style-foodfarm_style ul.vc_tta-tabs-list li:hover a, .tooltip-content a, .content-desc .button-404 .btn-default-2, .coming-sub h2 span, .footer-location-container .location-info .phone-number, .footer-location-container .location-info p a:hover, .contact-desc .number, .vertical-menu .mega-menu li .dropdown-menu li a:hover, .shop_table td.product-name a:hover, .side-breadcrumb-2 .page-title h2, .category .blog-info a:hover, .search.search-results .blog-info a:hover, .date .blog-info a:hover, .blog-info .blog-comment:hover, .vc_wp_custommenu.wpb_content_element .widget_nav_menu ul > li > a:hover, .vc_wp_custommenu.wpb_content_element .widget_nav_menu ul > li > a:before, .ads_border_1 span, .btn.btn-organic:hover, .header-v4 .link-contact p i, .header-v4 .mega-menu li a:hover, .header-v4 .mega-menu li a:focus, .right-services .services-button, .vc_wp_custommenu.wpb_content_element .widget_nav_menu .menu-service-detail-container ul > li > a::before, .vc_wp_custommenu.wpb_content_element .widget_nav_menu .menu-service-detail-container ul > li > a:hover, .main_color, .product-categories li::after, .product-categories > li.current-cat:after, .btn.btn-default-1, .entry-title .icon-7, .today-menu-info .price_info, .today-menu-item:hover .today-menu-info h4, .we-doing:hover .we_doing_icon, .we-doing:hover .we-doing-content h4, .number-blog, .widget.widget_categories ul > li::after, .widget.widget_archive ul > li::after, .widget.widget_foodfarm_recipe_categories ul > li::after, .widget.widget_meta ul > li::after, .widget.widget_pages ul > li::after, .controls-custom-style.owl-theme .owl-controls .owl-nav div:hover, .footer-v5 .widget li a:hover, .best-recipes .blog-ful .blog-item .post-name a:hover, .header-v3 .right-header .btn-search:hover, .header-v3 .right-header .cart_label:hover, .blog-info .blog-comment a:hover, .header-v6 .mega-menu > li.current-menu-parent > a, .header-v6 .mega-menu > li.current_page_parent > a, .header-v6 .mega-menu > li.current_page_item > a, .header-v6 .top-link .customlinks i, .blog-ful-3.blog-content .blog-item:hover .post-name a, .footer-v6 .footer-center .list-info li a:hover, .left-sidebar .widget_nav_menu ul > li::after, .right-sidebar .widget_nav_menu ul > li::after, .header-v7 .main-navigation .mini-cart .cart_label i, .header-v7 .main-navigation .mega-menu > li > a:hover, .header-v7 .header-bottom .header_contact_info a:hover, .product-loadmore > a.btn:hover, .blog-grid-style3 .blog-info .info a:hover, .header-v7 .main-navigation .mini-cart .cart_label i, .footer-v7 .footer-contact-info a:hover, .home7_btn_slider:hover, .widget_categories_list li::after, .footer-v7 .footer-contact-time .icon-title .icon-8, .header-v7 .mega-menu li.megamenu .dropdown-menu li a:hover, .header-v6 .link-contact i, .contact-desc a:hover, .footer-v8 .list-info li a:hover, .footer-v8 a:hover, .header-mobile #advanced-menu-hide, .main-color .uvc-sub-heading, ul.info_list_style2 li:before, .line_main_color .uvc-heading-spacer.line_only, .tab_filter_5 .nav-tabs.btn-filter li a.active, .tab_filter_5 .nav-tabs.btn-filter li a:hover, .tab_filter_5 .nav-tabs.btn-filter li a:focus, .tab_filter_5 .nav-tabs.btn-filter li a.active > i, .tab_filter_5 .nav-tabs.btn-filter li a:hover > i, .tab_filter_5 .nav-tabs.btn-filter li a:focus > i, .testimonials-client.slide5 p.name, .blog_grid6 .blog-post-title .post-bottom a:hover, .blog_grid6 .blog-post-title .post-bottom > div:hover i, .uvc-sub-heading a {
+  color: #94c347;
+}
+.ult_tabmenu.style1 > li.ult_tab_li.current span.ult-span-text, .ult_tabmenu.style1 li.current a.ult_a, .ult_tabmenu.style1 li:hover .ult-span-text, .our-services.services-content .services-title a:hover, .vc_separator.vc_sep_pos_align_left .custom-icon-class {
+  color: #94c347 !important;
+}
+.button_member, .footer-v4 .newsletter-footer button.btn-default, .footer-v5 .newsletter-footer button.btn-default, .style_middle .line, .promo-banner .text_block_over h3::before, .ares .tp-bullet:hover, .ares .tp-bullet.selected, .header-v5 .menu-primary-menu-container, .header-v5 .mini-cart .number-product, .services-overlay::before, .woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover, .woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover, .woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a, .woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a, .link-network li:hover, .tooltip-inner, .content-desc .button-404 .btn-default-2:hover, .page-numbers.page-secondary > li:hover a, .page-numbers.page-secondary > li:hover span, .page-numbers.page-secondary .current, .blog_post_desc ul li::before, .woocommerce-tabs #tab-reviews .form-submit input, .header-v2 .top-link .customlinks.link-checkout .number-product, .footer .widget-title-border::before, .recipes .owl-theme .owl-controls .owl-buttons div:hover, .recipes .owl-theme .owl-controls .owl-buttons div:active, .recipes .owl-theme .owl-controls .owl-buttons div:focus, .product-desc .add-to-cart span:hover, .nav-tabs.btn-filter li a.active, .nav-tabs.btn-filter li a:hover, .nav-tabs.btn-filter li a:focus, .btn-default, .vc_btn3.vc_btn3-style-custom.btn-default, .vc_btn3.vc_btn3-style-custom.btn-default:hover, blockquote:before, .vc_btn3.vc_btn3-color-grey.vc_general.btn:hover, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-custom.vc_general.btn, .product-desc .add-to a:hover, .single_add_to_cart_button span, .blog-date, .vc_tta-style-foodfarm_style .vc_tta-panel-title > a i, .text-center .icon-title::before, .icon-title::before, .text-center .icon-title::after, .footer .widget-title-border::before, .footer-v2 .newsletter-footer .btn, .widget_price_filter .ui-slider .ui-slider-range, .widget_price_filter .ui-slider .ui-slider-handle, .price_slider_amount .button, .woocommerce .woocommerce-message, .nav-tabs > li.active > a::before, .main-sidebar .searchform .button, .vc_tta-tabs.vc_tta-style-foodfarm_style ul.vc_tta-tabs-list li.vc_active a .vc_tta-title-text::before, .woocommerce table.wishlist_table tr.cart_item td.product-add-to-cart div.add-to-cart a.button, .header-v1 .mini-cart .number-product, .header-v3 .mini-cart .number-product, .product_type_2 .product-grid .product-content .add-to-cart:hover, .product_type_2 .product-grid .product-content .add-to-cart:hover a, .product_type_2 .product-grid .product-content .add-to:hover, .product_type_2 .product-grid .product-content .add-to:hover a, .product_type_2 .product-grid .product-content .quick-view:hover, .woocommerce-account .woocommerce-MyAccount-content input[type="submit"], .mc4wp-alert.mc4wp-success, .about-2 .img-about::after, .about-style-2 .img-about::after, .btn.btn-default-1:hover, .btn.btn-default-1:focus, .btn.btn-default-1:active, .btn.btn-default-1:active:focus, .btn.btn-default-1:focus:active, .promo-banner .bakery_banner a:hover, .mega-menu > li > a:before, .instagram-container li a:before, .header-v1 .mini-cart .number-product, .header-v3 .mini-cart .number-product, .img-about:after, .recipes .owl-theme .owl-controls .owl-nav div:hover, .recipes .owl-theme .owl-controls .owl-nav div:active, .recipes .owl-theme .owl-controls .owl-nav div:focus, .newsletter-footer button.btn-default, .footer-v6 .newsletter-footer button.btn-default, .mega-menu > li > a:before, .text-quote::before, .header-v7 .search-block-top .top-search .btn-search, .header-v7 .main-navigation .mega-menu > li > a:before, .footer-v7 .newsletter-footer button.btn, .owl-controls .owl-dots .owl-dot.active span, .owl-controls .owl-pagination .owl-dot.active span, .owl-controls .owl-dots .owl-page.active span, .owl-controls .owl-pagination .owl-page.active span, .header-v6 .mega-menu > li.current-menu-parent:before, .header-v6 .mega-menu > li.current_page_parent:before, .header-v6 .mega-menu > li.current_page_item:before, .h-bg .ubtn:hover, .h-bg .ubtn-link:hover, .h-bg .ubtn-center-hz-bg .ubtn-hover, .woocommerce > .product_types ul.products > li.product-category, .half_main_bg.wpb_column:before, #pre_order_prd .wpb_heading.wpb_singleimage_heading, .h-bg:hover .ubtn-hover.ubtn-hover-active, .blog_grid6 .blog-dateinfo, .header-v9 .number-product {
+  background: #94c347;
+}
+.today-menu-item .bg-hover:hover:before, .blog-ful-3.blog-content .blog-item:hover .has-overlay::before, .today-menu-item:hover .bg-hover::before {
+  background: #94c347;
+  opacity: 0.7;
+}
+.testimonial-3 .dotsCont > div:before, .product-loadmore > a.btn, .footer-v7 .menu-footer-social ul > li a:hover, .footer-v6 .footer-top .footer-social ul li a:hover, .footer-v9 .menu-footer-social li a:hover {
+  background: #94c347;
+  border-color: #94c347;
+}
+.blog-grid-style3 .read-more a {
+  color: #94c347;
+  border-color: #94c347;
+}
+.footer-v4 .newsletter-footer button.btn-default:hover, .footer-v5 .newsletter-footer button.btn-default:hover, .woocommerce-tabs #tab-revssiews .form-submit input:hover, .price_slider_amount .button:hover, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default:active:focus, .btn-default:focus:active, .vc_btn3.vc_btn3-color-grey.vc_general.btn, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-custom.vc_general.btn:hover, .woocommerce table.wishlist_table tr.cart_item td.product-add-to-cart div.add-to-cart a.button:hover, .woocommerce-account .woocommerce-MyAccount-content input[type="submit"]:hover, .footer-v6 .newsletter-footer button.btn-default:hover, .prd_cat_count:hover, .h-bg .ubtn, .h-bg .ubtn-link, .main-bg .ubtn:hover, .main-bg .ubtn-link:hover, .prd_cat_count:before, .prd_cat_count:after, .main-bg .ubtn-top-bg .ubtn-hover, .footer-v9 .newsletter-footer form button[type="submit"]:hover {
+  background: #85b635;
+}
+.page-numbers.page-third > li:hover a, .page-numbers.page-third > li:hover span, .page-numbers.page-third .current, .vc_separator.vc_sep_pos_align_center .custom-icon-class, .vc_separator.vc_sep_pos_align_left .custom-icon-class {
+  color: #94c347;
+}
+.blog-grid-style4 .read-more a:hover, #pre_order_prd .pre_order_price {
+  color: #85b635;
+}
+.also-like .widget-title.widget-title-bg::before {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #94c347 17%, #f5f5f5 17%) repeat scroll 0 0;
+}
+@media (min-width: 768px) {
+  .vc_icon_element.about-icon:not(.hover-off) .icon .vc_icon_element-inner:hover {
+    background-color: #94c347 !important;
+    border-color: #94c347 !important;
+  }
+}
+.ult_tabmenu > li.ult_tab_li.current {
+  background-color: #94c347 !important;
+}
+.button_member::before, .woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover, .woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover, .woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a, .woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a, .woocommerce .widget_layered_nav ul.yith-wcan-color li a:hover, .woocommerce-page .widget_layered_nav ul.yith-wcan-color li a:hover, .woocommerce .widget_layered_nav ul.yith-wcan-color li.chosen a, .woocommerce-page .widget_layered_nav ul.yith-wcan-color li.chosen a, .woocommerce .widget_layered_nav ul.yith-wcan-color li span:hover, .woocommerce-page .widget_layered_nav ul.yith-wcan-color li span:hover, .woocommerce .widget_layered_nav ul.yith-wcan-color li.chosen span, .woocommerce-page .widget_layered_nav ul.yith-wcan-color li.chosen span, .content-desc .button-404 .btn-default-2, .content-desc .button-404 .btn-default, .page-numbers.page-secondary > li:hover, .comment-form input:focus, .comment-form textarea:focus, .commentlist .profile-top img, .images .views-block li img:hover, .single_add_to_cart_button span, .viewmode-toggle a:hover, .viewmode-toggle a:focus, .viewmode-toggle a.active, .page-numbers > li:hover, .page-numbers .current::before, .blog-style-2::before, .border-package::after, .about-2 .border-box::before, .product-desc .add-to a, .product_type_2 .product-grid .product-content .add-to-cart:hover, .product_type_2 .product-grid .product-content .add-to:hover, .product_type_2 .product-grid .product-content .quick-view:hover, .product-desc .add-to-cart span, .btn.btn-default-1, .what-we-doing .wpb_column:hover, .what-we-doing:last-child .wpb_column:hover, .promo-banner .bakery_banner a:hover, .testimonial-3 .img-testimonial:before {
+  border: 1px solid #94c347;
+}
+.ult_tabmenu.style3 > li.ult_tab_li.current {
+  border: 1px solid #94c347 !important;
+}
+.addthis_sharing_toolbox .f-social li:hover {
+  border: 2px solid #94c347;
+}
+.about .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-style-rounded-outline {
+  border: 2px dashed #94c347 !important;
+}
+.recipes .owl-theme .owl-controls .owl-buttons div {
+  border: 3px solid #94c347;
+}
+.tooltip-content .tooltip::before {
+  border-top: 6px solid #94c347;
+}
+.home7_btn_slider:hover {
+  border-bottom-color: #94c347 !important;
+}
+.nav-tabs.btn-filter li a.active, .nav-tabs.btn-filter li a:hover, .nav-tabs.btn-filter li a:focus {
+  border-bottom: 1px solid #94c347;
+  border-left: 1px solid #94c347;
+  border-top: 1px solid #94c347;
+}
+.testimonial_2 .testimonials-client i, .vc_separator.vc_sep_pos_align_left .vc_sep_holder .vc_sep_line, .custom-separator.vc_separator.vc_sep_color_custom .vc_sep_holder .vc_sep_line {
+  border-top-color: #94c347;
+}
+.ult_tabmenu.style3 > li.ult_tab_li:hover {
+  border-color: #94c347 !important;
+  background: #94c347 !important;
+}
+input.wpcf7-text:focus, .vc_icon_element.about-icon.vc_icon_element.vc_icon_element-outer.vc_icon_element-have-style .vc_icon_element-inner, .page-numbers.page-third > li:hover, .page-numbers.page-third .current::before, .controls-custom .owl-controls .owl-buttons div:hover, .widget.widget_tag_cloud a:hover, .woocommerce-account form.login .form-row input.input-text:focus, .woocommerce-account form.register .form-row input.input-text:focus, .comments-area ul.commentlist #respond input:focus, .comments-area ul.commentlist #respond textarea:focus, .recipes .owl-theme .owl-controls .owl-nav div, .product_type_2 .product-grid .product-content .add-to-cart:hover a {
+  border-color: #94c347;
+}
+.ult_tabmenu.style3 > li.ult_tab_li.current, .custom .tp-bullet:hover, .custom .tp-bullet.selected, .slider_wrap.dot_style2 .owl-controls .owl-dot.active > span, .slider_wrap.dot_style2 .owl-controls .owl-dot:hover > span {
+  background: #94c347 !important;
+}
+#pre_order_prd .wpb_heading.wpb_singleimage_heading:before {
+  background: #94c347;
+  border--color: #94c347;
+}
+@media (max-width: 767px) {
+  .what-we-doing .wpb_column {
+    border: 1px solid #94c347 !important;
+  }
+  .we-doing .we_doing_icon, .we-doing .we-doing-content h4 {
+    color: #94c347;
+  }
+}
+@media (min-width: 992px) {
+  .header-v8 .mega-menu .dropdown-menu {
+    border-top: 2px solid #94c347;
+  }
+}
+@media (max-width: 991px) {
+  .btn-open:hover {
+    color: #94c347;
+  }
+}
+@media (min-width: 768px) {
+  ul.info_list_style2 li:hover {
+    color: #94c347;
+  }
+}

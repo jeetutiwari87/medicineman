@@ -1,0 +1,195 @@
+/*
+Theme Name: FoodFarm
+Theme URI: http://hn.arrowpress.net/foodfarm/
+Author: AHT
+Author URI: http://arrowhitech.com/
+Description: Foodfarm - WordPress Theme for Farm, Farmers and Food, Organic.
+Version: 1.6.7
+License: 
+License URI: 
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: foodfarm
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+/*ul.products li .variations { display: none; }
+.products .variations { display: none; }
+.owl-item .variations { display: none; }
+.product-desc .add-to a { margin-left: -20px; }
+.type-title { font-weight: 600; }
+.type-text { font-size: 12px; }
+.custom-thc { font-size: 12px; display: inline; }
+.custom-cbd { font-size: 12px; 
+}
+.custom-grade { font-size: 12px; 
+}
+
+.extraAtt { display: table; width: 100%; }
+.extraAtt .custom-types, .extraAtt .custom-thc, .extraAtt .custom-cbd, .extraAtt .custom-grade { display: table-cell; vertical-align: middle; }
+.extraAtt .custom-thc, .extraAtt .custom-cbd, .extraAtt .custom-grade { background-color: #ffffff; padding: 0 10px; text-align: center; }
+.product-content { background-color: #f0f0f0; border: medium none; padding: 15px; }
+.extraAtt .custom-types { background-color: #dcdcdc; padding: 7px 10px; text-align: right; }
+.product-desc h3, .star-rating, .price { background-color: #3db06d; }
+.product-grid .product-action {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  min-height: 45px;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 9;
+}
+.product-content:hover .product-action { opacity: 1; }
+.product-grid .product-desc { height: auto; }
+.product-desc { padding-bottom: 0; }
+.product-action a { background-color: #3db06d; border-radius: 5px; color: #ffffff; display: block; font-size: 17px; font-weight: bold; margin: 0 15px 30px; padding: 15px 0; text-transform: uppercase; }
+.star-rating { position: absolute; right: 15px; top: 0; }
+.product-desc { position: relative; }
+.categories-product .product-content .product-desc .product-action { margin: auto; }
+.product-desc h3 { font-size: 14px; font-weight: 400; text-align: left; text-transform: none; }
+.product-desc h3 a { color: #ffffff; display: inline-block; font-size: 18px !important; text-align: left; }
+.product-desc h3 { padding: 10px 15px 0; }
+.star-rating span::before { color: #ffffff; }
+.price { color: #000000; font-size: 20px; margin: 0 0 10px; padding: 10px 15px; text-align: left; }
+.price span { color: #000000 !important; font-size: 17px !important; }
+.product-grid .product-img { padding-bottom: 0; text-align: center; }
+.form2 .form-control { float: left; margin: 8px 0 9px; width: 48%; }
+.form2 .form-control:last-child { float: right; }
+.vc_column-inner input.form-control[type="file"] { border: 0 none; box-shadow: none; display: inline-block; height: auto; vertical-align: middle; width: auto; }
+input.form-control[type="checkbox"] { display: inline-block; height: auto; margin: 0 5px 0 0; vertical-align: middle; width: auto; }
+.bbig { margin: 30px 0; }
+.vc_column-inner h3 { line-height: normal; margin: 0 0 10px; }
+.vc_column-inner h4 { margin: 0 0 15px; }
+
+.p-strains-details .p-strains-type.sativa {
+  background-color: rgb(255, 206, 3);
+  color: rgb(26, 18, 41);
+}
+.p-strains-details .p-strains-type {
+  background-color: rgb(113, 84, 160);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 12px;
+  height: 22px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin: 0 6px 6px 0;
+  padding: 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.p-strains-details .p-thc-details {
+  background: rgb(26, 18, 41) none repeat scroll 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  margin: 0 6px 6px 0;
+  padding: 0 12px;
+}
+.p-strains-details .p-thc-details span.p-thc-title, .p-strains-details .p-thc-details span.p-thc-val {
+  color: rgb(255, 255, 255);
+}
+.sativa-text {
+  color: rgb(255, 206, 3);
+}
+div.product div.summary form.cart .variations .select_option.selected {
+  background: rgb(0, 165, 81) none repeat scroll 0 0;
+}
+div.product div.summary form.cart .variations .select_option {
+  margin-top: 10px;
+}
+div.product div.summary form.cart .variations .select_option {
+  background-color: rgb(232, 232, 232);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  margin-right: 8px;
+}
+.info .summary .product-desc h3 {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -2px;
+  padding: 0;
+  text-transform: uppercase;
+}
+.info .summary .star-rating {
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 2px;
+  margin-top: 10px;
+  position: relative;
+  right: auto;
+}
+.info .star-rating span::before {
+  color: rgb(51, 51, 51) !important;
+}
+.info .summary p {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(134, 134, 134);
+  line-height: 22px;
+  margin-bottom: 21px;
+  padding: 0;
+}
+.product-content:hover::before{ opacity:1;}
+.product-content::before {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+.product-grid .product-action {  
+  pointer-events:auto; 
+}
+.entry-summary div {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: none;
+}
+.p-strains-details .p-cbd-details {
+  background: rgb(26, 18, 41) none repeat scroll 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  margin: 0 6px 6px 0;
+  padding: 0 12px;
+}
+.p-strains-details .p-grade-details {
+  background: rgb(26, 18, 41) none repeat scroll 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  margin: 0 6px 6px 0;
+  padding: 0 12px;
+}
+.p-strains-details {
+  margin-bottom: 15px;
+}
+.p-strains-details .p-common-details {
+  background: rgb(26, 18, 41) none repeat scroll 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  margin: 0 6px 6px 0;
+  padding: 0 12px;
+  width: auto;
+}
+.entry-summary div .indica-text {
+  color: rgb(255, 206, 3);
+}
+*/

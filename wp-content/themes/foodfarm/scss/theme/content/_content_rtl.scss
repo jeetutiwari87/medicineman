@@ -1,0 +1,90 @@
+select, .select-tooltbars select {
+    background: #ffffff url("../images/caret-down.png") no-repeat scroll 10% center;
+}
+.select-tooltbars .result-count select {
+    background: #ffffff url("../images/caret-down.png") no-repeat scroll 20% center;
+}
+.yith-wcwl-add-button > a i, .wishlist_table .add_to_cart.button i, .wishlist_table .ask-an-estimate-button i, .wishlist-title a.show-title-form i, .hidden-title-form a.hide-title-form i, .hidden-title-form button i, .yith-wcwl-wishlist-new button i, .wishlist_manage_table tfoot button.submit-wishlist-changes i, .wishlist_manage_table tfoot a.create-new-wishlist i, .yith-wcwl-wishlist-search-form button.wishlist-search-button i{
+	margin-right: 0;
+}
+.icon-4 .path4::before{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    margin-right: -1.03125em;
+    margin-left: 0;
+}
+.vc_icon_element.about-icon:not(.hover-off) .icon .icon-4 .path5::before {
+    margin-right: -25px !important;
+}
+.icon-2 .path2::before{
+        position: absolute;
+        top: 50%;
+        left: 50px;
+    }
+.f-right{
+    float: left;
+}
+#pre_order_prd .wpb_heading.wpb_singleimage_heading:after {
+    right: 85%;
+}
+/*This will work for firefox*/
+@-moz-document url-prefix() {
+    .icon-2 .path2::before{
+    	position: absolute;
+        top: 50%;
+        left: 38px;
+    }
+}    
+.icon-2 .path3::before{margin-left: -23px;}
+.about .border-box::before {
+    right: -5px;
+    width: 100%;
+}
+.textDiv_Days{
+    left: auto !important;
+}
+.also-like .widget-title.widget-title-bg::before {
+    background: rgba(0, 0, 0, 0) linear-gradient(to left, #94c347 17%, #f5f5f5 17%) repeat scroll 0 0 !important;
+}
+div.light_square .pp_close, .light_square .pp_arrow_previous, .light_square .pp_arrow_next{text-indent: 99999em;}
+.vertical-menu .mega-menu li .caret i,
+.btn-icon i,
+.pagination i{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+.ult_tabmenu.style3 li.ult_tab_li:first-child{
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+}
+.ult_tabmenu.style3 li.ult_tab_li:last-child{
+    border-top-right-radius: 0 !important;
+    border-top-left-radius:4px !important;
+}
+.ult_tabmenu.style3 li.ult_tab_li:last-child:not(:first-child) {
+    border-left: 1px solid #e1e1e1 !important;
+}
+.light_square .pp_arrow_previous{left: -42px; right: auto;}
+.light_square .pp_arrow_next{right: -70px; left: auto;}
+.light_square .pp_content_container .pp_right {
+    padding-right: 5px;
+    padding-left: 0;
+}
+.light_square .pp_content_container .pp_left {
+    padding-left: 5px;
+    padding-right: 0;
+}
+.custom-separator.vc_sep_pos_align_left{float: right;}
+.contact-home .col-2{text-align: right;} 
+.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9,
+.vc_col-md-1, .vc_col-md-10, .vc_col-md-11, .vc_col-md-12, .vc_col-md-2, .vc_col-md-3, .vc_col-md-4, .vc_col-md-5, .vc_col-md-6, .vc_col-md-7, .vc_col-md-8, .vc_col-md-9,
+.vc_col-lg-1, .vc_col-lg-10, .vc_col-lg-11, .vc_col-lg-12, .vc_col-lg-2, .vc_col-lg-3, .vc_col-lg-4, .vc_col-lg-5, .vc_col-lg-6, .vc_col-lg-7, .vc_col-lg-8, .vc_col-lg-9 {
+    float: right !important;
+}
+@media (max-width: 991px){
+    .header-mobile {
+        @include transform(translateX(270px));
+    }
+}

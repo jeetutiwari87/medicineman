@@ -1,0 +1,382 @@
+<?php
+/*
+  Plugin Name: Custom Registration
+  Plugin URI: #
+  Description: Updates user rating based on number of posts.
+  Version: 1.0
+  Author: Manish
+  Author URI: #
+ */
+ /*
+ $first_name
+$last_name
+$email
+$telephone
+$street-address
+$street-address-line2
+$city
+$province
+$postal-code
+$country
+$gov-id-one
+$gov-id-two
+ */
+ ob_start();
+function registration_form( $first_name,$last_name,$email,$telephone,$street_address,$street_address_line2,$city,$province,$postal_code,$country,$gov_id_one,$message,$gov_id_two ) { ?>
+		
+	  
+ <style> 
+ .error {
+    background: none !important; 
+}
+#errormessage {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin-bottom: 30px;
+}
+#errormessage li::before {
+    content: "";
+    font-family: FontAwesome;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: 19px;
+    text-decoration: inherit;
+}
+#errormessage li {
+    background: #ff7f7f none repeat scroll 0 0;
+    color: #ffffff;
+    margin-bottom: 5px;
+    padding: 8px 13px 13px 9px;
+}
+.wpcf7-form-control{
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    margin: 0;
+    min-width: 121px;
+    padding: 0 20px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+	}
+</style> 
+ <?php
+		
+ echo '
+    <form action="' . $_SERVER['REQUEST_URI'] . '" method="post" class="registration-form" enctype="multipart/form-data" >
+    <div class="row">
+      <div class="col-sm-6">
+         <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+               <p class="form1">First Name <span>*<span><br>
+                 <input name="first_name"  data-validation="required"     value="' . ( isset( $_POST['first_name'] ) ? $first_name : null ) . '" size="40" class="form-control" type="text">
+               </p>
+               <p class="form1">Last Name <span>*<span><br>
+                 <input name="last_name" data-validation="required"     value="' . ( isset( $_POST['last_name'] ) ? $last_name : null ) . '" size="40" class="form-control" type="text">
+               </p>
+               <p class="form1">Email Address <span>*<span><br>
+                 <input name="email"  data-validation="email"  value="' . ( isset( $_POST['email'] ) ? $email : null ) . '" size="40" class="form-control"  type="email">
+               </p>
+               <p class="form1">Phone Number <span>*<span><br>
+               <input name="telephone" data-validation="required"     value="' . ( isset( $_POST['telephone'] ) ? $telephone : null ) . '" size="40" class="form-control"  type="tel">
+               </p>
+               <p class="form1">Address 1 <span>*<span><br>
+                <input name="street_address" data-validation="required" value= "' . ( isset( $_POST['street_address'] ) ? $street_address : null ) . '" size="40" class="form-control"  type="text"><br>
+                </p>
+				 
+				
+               <p class="form2">City <span>*<span><br>
+				<input name="city" data-validation="required" value="' . ( isset( $_POST['city'] ) ? $city : null ) . '"  size="40" class="form-control"  type="text">
+				</p>
+				<p class="form2">Province <br>
+				<input name="province"    value="' . ( isset( $_POST['province'] ) ? $province : null ) . '" size="40" class="form-control"   type="text">
+				</p>
+              <p class="form2">Postal / Zip Code <span>*<span><br>
+			<p class="form2">  <input name="postal_code" data-validation="required" value="' . ( isset( $_POST['postal_code'] ) ? $postal_code : null ) . '" size="40" class="form-control" type="text"></p>
+			 
+               <div class="clearboth"></div>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6">
+         <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+               <p>Government ID <span>*<span><br>
+				<input name="gov_id_one"   data-validation="required"    size="40" class="form-control"  type="file"></p>
+                
+               <p>Additional Message<br>
+                  <textarea name="message" value=""' . ( isset( $_POST['message'] ) ? $message : null ) . '"" cols="40" rows="10" class="form-control" aria-invalid="false"></textarea>
+               </p>
+               <h5><input name="codes_of_conduct" data-validation="required" data-validation-error-msg="You have to agree to our terms"  value="1" class="form-control" aria-invalid="false" type="checkbox"></span> I accept the  <a href="#" target="_blank" style="text-decoration: underline;">Terms of Service</a><br></h5>
+               
+               <div class="clearboth"></div>
+            </div>
+         </div>
+      </div>
+	  
+	  <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+		<div class="btn btn-default btn-icon">
+		<input class="wpcf7-form-control wpcf7-submit" type="submit" name="submit" value="Register"> 
+		  
+		</div>
+		</div>
+	 
+   </div> 
+</form>';
+ 
+ ?>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+	<script>
+
+	  $.validate({
+		modules : 'location, date, security, file', 
+	  }); 
+	</script>
+	
+<?php	
+}
+
+function registration_validation( $first_name,$last_name,$email,$telephone,$street_address,$street_address_line2,$city,$province,$postal_code,$country)  {
+global $reg_errors;
+$reg_errors = new WP_Error;
+
+if ( 
+empty( $first_name ) || empty( $last_name ) || empty( $email ) || empty( $telephone ) || empty( $street_address )  || empty( $city ) ||  empty( $postal_code ) ) {
+    $reg_errors->add('field', 'Required form field is missing');
+}
+   
+ if ( !is_email( $email ) ) {
+    $reg_errors->add( 'email_invalid', 'Email is not valid' );
+}
+if ( email_exists( $email ) ) {
+    $reg_errors->add( 'email', 'Email Already in use' );
+}
+ 
+if ( is_wp_error( $reg_errors ) ) {
+	 echo '<ul id="errormessage">';
+    foreach ( $reg_errors->get_error_messages() as $error ) {
+     
+        echo '<li>';
+        echo $error;
+        echo '</li>';
+         
+    }
+  echo '</ul>';
+}
+ return $reg_errors;
+}
+function complete_registration() {
+ 
+    global $reg_errors, $password, $first_name,$last_name,$email,$telephone,$street_address,$street_address_line2,$city,$province,$postal_code,$country,$gov_id_one,$message,$gov_id_two;
+    $password = wp_generate_password( 8, false ); 
+    if ( 1 > count( $reg_errors->get_error_messages() ) ) {
+        $userdata = array(
+        'user_login'    =>   $email,
+        'user_email'    =>   $email,
+        'user_pass'     =>   $password, 
+        'first_name'    =>   $first_name,
+        'last_name'     =>   $last_name,
+        'nickname'      =>   $first_name,
+     
+        );
+       $user_id   = wp_insert_user( $userdata );
+		
+		
+		
+		
+		// update user meta
+		update_user_meta( $user_id, 'billing_first_name', sanitize_text_field( $first_name ) );
+		update_user_meta( $user_id, 'billing_last_name', sanitize_text_field( $last_name ) );
+		update_user_meta($user_id, 'billing_phone', sanitize_text_field($telephone));
+		update_user_meta( $user_id, 'billing_address_1', sanitize_text_field( $street_address ) );
+		update_user_meta( $user_id, 'billing_address_2', sanitize_text_field( $street_address_line2 ) );
+		update_user_meta( $user_id, 'billing_city', sanitize_text_field( $city ) );
+		update_user_meta( $user_id, 'billing_postcode', sanitize_text_field( $postal_code ) );
+		update_user_meta( $user_id, 'billing_province', sanitize_text_field( $province ) );
+		//update_user_meta( $user_id, 'billing_country', sanitize_text_field( $country ) );
+		update_user_meta( $user_id, 'message', sanitize_text_field( $message ) );
+		 
+		
+		  	 //governmentID
+		if ($_FILES['gov_id_one']['error'] == 0) {
+	 
+			 $uploads = wp_upload_dir();
+			 
+			  $uploaddir = $uploads['basedir']  .'/users/'; 
+					
+				$file = $uploaddir . $user_id.basename($_FILES['gov_id_one']['name']); 
+				$raw_file_name = $_FILES['gov_id_one']['tmp_name'];
+				$name =  $user_id.$_FILES['gov_id_one']['name'];
+				if (move_uploaded_file($_FILES['gov_id_one']['tmp_name'], $file)) { 
+				update_user_meta($user_id, 'gov_id_one', sanitize_text_field($name)); 	 
+				}  
+			 
+				
+			}
+			
+	/* if ($_FILES['gov_id_two']['error'] == 0) {
+			 
+				$uploads = wp_upload_dir();
+				$uploaddir = $uploads['basedir']  .'/users/'; 
+				$file = $uploaddir . $user_id.basename($_FILES['gov_id_two']['name']); 
+				$raw_file_name = $_FILES['gov_id_two']['tmp_name'];
+				$name = $user_id.$_FILES['gov_id_two']['name'];
+				if (move_uploaded_file($_FILES['gov_id_two']['tmp_name'], $file)) { 
+				update_user_meta($user_id, 'gov_id_two', sanitize_text_field($name)); 	 
+				}  
+			}*/
+	
+	
+      //  echo 'Registration complete. Goto <a href="' . get_site_url() . '/wp-login.php">login page</a>.';   
+  
+	
+		$user_info = get_userdata($user_id); 
+		$user_email = $user_info->user_email;	 
+		 $html = '<html><head></head><body style="color:#666666; font-size:18px; font-family: "Work Sans";">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+				<div style="background-color:#fff; width:100%; height:auto">
+						<div style="padding-top:65px; padding-bottom:65px; text-align:center">
+									<img src="http://medicineman.menu/new/wp-content/uploads/2017/07/logo-default.png">
+						</div>
+							<div style="margin:0 auto; width:80%; height:auto; background-color:#f9f9f9; padding:15px;">
+								<div >Hello <span >'.$user_info->first_name.'</span>,</div>
+								<div style="font-size:14px; color:#666666; padding-top:15px; padding-bottom:15px;">Welcome to Medicine Man.</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:0px;"> Username: '.$user_info->user_email.'</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:5px;"> Password: '.$password.'</div>
+							   <div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:5px;"> Thanks for your registration</div>
+								 
+								<div style="font-size:14px; color:#666666; padding-top:5px; padding-bottom:5px;">
+									You will get a approval email soon.
+								</div>
+								
+							<div style="font-size:16px; color:#666666; padding-top:10px; padding-bottom:10px;">
+									Thanks & Kind regards,
+								</div>
+								 <div style="font-size:16px;  color:#666666; padding-top:10px; padding-bottom:10px;">
+									Medicine Man team
+								</div>
+							</div>   
+				</div></body></html>';
+		 wc_mail($user_info->user_email, __('Thanks Email '), $html);	  
+		// 	email to admin
+
+	   
+		 $html1 = '<html><head></head><body style="color:#666666; font-size:18px; font-family: "Work Sans";">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+				<div style="background-color:#fff; width:100%; height:auto">
+						<div style="padding-top:65px; padding-bottom:65px; text-align:center">
+									<img src="http://medicineman.menu/new/wp-content/uploads/2017/07/logo-default.png">
+						</div>
+							<div style="margin:0 auto; width:80%; height:auto; background-color:#f9f9f9; padding:15px;">
+								<div >Hello <span >Admin</span>,</div>
+								<div style="font-size:14px; color:#666666; padding-top:15px; padding-bottom:15px;">A new user registerd on your website , Below is the details of user.</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:0px;"> First name: '.$first_name.'</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:0px;"> Last name: '.$last_name.'</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:0px;"> Email: '.$email.'</div>
+								<div style="font-size:14px; color:#666666; padding-top:0px; padding-bottom:0px;"> Phone : '.$telephone.'</div>
+							  
+								
+								<div style="font-size:16px; color:#666666; padding-top:10px; padding-bottom:10px;">
+									Thanks & Kind regards,
+								</div>
+								 <div style="font-size:16px;  color:#666666; padding-top:10px; padding-bottom:10px;">
+									Medicine Man team
+								</div>
+							</div>   
+				</div></body></html>';
+		wc_mail(get_option('admin_email'), __('New user register '), $html1);			
+		 
+		   wp_logout();
+		 $url = get_permalink(955);
+         wp_redirect( $url);
+	}
+}
+
+function custom_registration_function() {
+    if ( isset($_POST['submit'] ) ) {
+  
+        registration_validation(
+        $_POST['first_name'],
+        $_POST['last_name'],
+        $_POST['email'],
+        $_POST['telephone'],
+        $_POST['street_address'],
+        $_POST['street_address_line2'],
+        $_POST['city'],
+        $_POST['province'],
+        $_POST['postal_code'],
+        $_POST['country'],
+        $_POST['gov_id_one'], 
+        $_POST['gov_id_two']
+        );
+         
+        // sanitize user form input
+		
+	 
+ 
+
+        global $first_name,$last_name,$email,$telephone,$street_address,$street_address_line2,$city,$province,$postal_code,$country,$gov_id_one,$message,$gov_id_two;
+        
+		$first_name =   sanitize_text_field( $_POST['last_name'] );
+        $last_name  =   sanitize_text_field( $_POST['last_name'] ); 
+        $email      =   sanitize_email( $_POST['email'] );
+        $telephone  =   sanitize_text_field( $_POST['telephone'] ); 
+        $street_address  =   sanitize_text_field( $_POST['street_address'] ); 
+        $street_address_line2  =   sanitize_text_field( $_POST['street_address_line2'] ); 
+        $city  =   sanitize_text_field( $_POST['city'] ); 
+        $province  =   sanitize_text_field( $_POST['province'] ); 
+        $postal_code  =   sanitize_text_field( $_POST['postal_code'] ); 
+        $country  =   sanitize_text_field( $_POST['country'] );  
+        $message        =   esc_textarea( $_POST['message'] );
+        $gov_id_one        =   $_POST['gov_id_one'];
+        $gov_id_two        =    $_POST['gov_id_two'];
+ 
+        // call @function complete_registration to create the user
+        // only when no WP_error is found
+        complete_registration(
+      
+        $first_name,
+		$last_name,
+		$email,
+		$telephone,
+		$street_address,
+		$street_address_line2,
+		$city,
+		$province,
+		$postal_code,
+		$country,
+		$gov_id_one,
+		$message,
+		$gov_id_two
+        );
+    }
+ 
+    registration_form(
+        $first_name,
+		$last_name,
+		$email,
+		$telephone,
+		$street_address,
+		$street_address_line2,
+		$city,
+		$province,
+		$postal_code,
+		$country,
+		$gov_id_one,
+		$message,
+		$gov_id_two
+        );
+}
+
+// Register a new shortcode: [cr_custom_registration]
+add_shortcode( 'cr_custom_registration', 'custom_registration_shortcode' );
+ 
+// The callback function that will replace [book]
+function custom_registration_shortcode() {
+    ob_start();
+    custom_registration_function();
+    return ob_get_clean();
+}

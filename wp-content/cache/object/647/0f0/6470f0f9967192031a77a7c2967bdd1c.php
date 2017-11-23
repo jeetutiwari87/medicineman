@@ -1,0 +1,5 @@
+n	ÂY<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:955;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-08-28 18:45:59";s:13:"post_date_gmt";s:19:"2017-08-28 18:45:59";s:12:"post_content";s:317:"[vc_row][vc_column][vc_column_text]<strong>Thank you for filling out your information!</strong>
+
+You will get a approval email when your account has been approved.
+
+<a class="button btn btn-default" href="http://medicinemanshop.ca/shop">Countinue Shopping</a>[/vc_column_text][vc_empty_space][/vc_column][/vc_row]";s:10:"post_title";s:15:"Signup - Thanks";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:13:"signup-thanks";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-10-14 05:01:22";s:17:"post_modified_gmt";s:19:"2017-10-14 13:01:22";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:41:"http://medicineman.menu/demo/?page_id=955";s:10:"menu_order";i:0;s:9:"post_type";s:4:"page";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

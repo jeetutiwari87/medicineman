@@ -1,0 +1,210 @@
+//Promo Banner
+.promo{
+  padding-bottom: 73px;
+  .entry-title{
+    margin-bottom: 42px;
+  }
+}
+.promo-banner {
+  position: relative;
+  overflow: hidden;
+  h2{
+    color: #fff;
+    font-size: 30px;
+    a{
+      color: #fff;
+      &:hover{
+        color: #94c347;
+      }
+    }
+    span{
+      font-weight: 300;
+    }
+  }
+  .text-container {
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    z-index: 9;
+  }
+  .text-left {
+    #{$left}: 5px;
+    bottom: 0;
+  }
+}
+ .promo-banner {
+    .text-left {
+      #{$left}: 25px;
+      bottom: 17px;
+    }
+    .text-center {
+      width: 100%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+}
+.promo-1{
+  .promo-banner {
+    p{
+      margin: 16px 0 26px;
+      line-height: 21px;
+    }
+  }
+  .text-left {
+      #{$left}: 30px;
+      bottom: 17px;
+  }
+}
+.promo-2{
+  .promo-banner{
+    .text-left {
+          #{$left}: 6px;
+          bottom: 4px;
+    }
+    &:before{
+      opacity: 0;
+    }
+    &:hover{
+       &:before{
+        opacity: 0.2;
+      }
+       &:after{
+         #{$left}: 5%;
+         top: 5%;
+         opacity: 1;
+       }
+        h2{
+          &:before{
+            width: 0;
+          }
+          &:after{
+            width: 35px;
+          }
+        }
+    }
+    margin-bottom: 28px;
+  }
+  h2{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 35px;
+      height: 2px;
+      background: #fff;
+      #{$left}: 0;
+      top: -7px;
+    }
+    &:after{
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 2px;
+      background: #fff;
+      #{$left}: 0;
+      bottom: -7px;
+    }
+  }
+}
+.promo-v2{
+  .promo-banner{
+    margin-bottom: 0;
+  }
+}
+.promo-relative{
+  .text-container{
+    position: relative;
+  }
+}
+.promo-ads{
+  img{
+    width: 100%;
+  }
+  h2{
+    font-family: Pacifico;
+    font-size: 66px;
+    span{
+      font-size:34px;
+    }
+  }
+  h3{
+    font-family: Pacifico;
+    font-size: 33px;
+    color: #fff;
+    margin-top: -7px;
+  }
+}
+.promo-ads-2{
+  h2{
+    margin-top: 17px;
+  }
+}
+.promo-ads-3{
+  h3{
+    margin-top: 15px;
+  }
+}
+.promo-ads-4{
+  h2{
+    font-size: 64px;
+    margin-top: 15px;
+  }
+}
+.promo-col2{
+  padding-bottom: 96px;
+}
+.promo-relative {
+  background-color: #94c347;
+  background-position: #{$left} center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  padding: 35px  0px;
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .text-container{
+    padding: side-values(40px 28px 40px 190px);
+  }
+}
+// Wedoing
+.main-sidebar{
+  .promo-fresh{
+      padding-bottom: 0;
+      margin-bottom: -30px;
+  }
+}
+.promo-fresh{
+  overflow: hidden;
+  padding-top: 73px;
+  h2{
+    text-transform: uppercase;
+  }
+  .promo-banner h2 {
+    font-size: 25px;
+  }
+  .promo-ful{
+    .promo-banner .text-container {
+        padding: 13px 9px;
+    }
+  }
+  .promo-2 {
+    h2:before{
+      top:-10px;
+      #{$left}: 2px;
+    }
+    &.promo-ful .promo-banner{
+      &:after{
+        width: 96%;
+        #{$left}: 2%;
+      }
+    }
+  }
+}

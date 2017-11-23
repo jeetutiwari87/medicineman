@@ -1,0 +1,20 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+$rtl: 1;
+$dir: rtl !default;
+
+@import "plugins/directional";
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.eot'); 
+	src: url('../fonts/MyriadPro-Regular.otf')  format('opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import 'config/config_skin';
+@import "typography";
+@import "theme/theme-main";                
+// Custom
+@import "theme/base/wp-theme";    
+@import "theme/content/content_rtl";  

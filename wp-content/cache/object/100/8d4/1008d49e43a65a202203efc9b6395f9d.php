@@ -1,0 +1,1 @@
+/�Y<?php exit; ?>a:1:{s:7:"content";s:125:"Diamond Concentrates THC Distillate Syringes in the flavor Blueberry. Each syringe contains a full gram of THC distillate.";}

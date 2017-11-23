@@ -1,0 +1,6 @@
+ö
+åY<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"1263";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-06 22:20:59";s:13:"post_date_gmt";s:19:"2017-10-07 06:20:59";s:12:"post_content";s:0:"";s:10:"post_title";s:9:"Grape Ape";s:12:"post_excerpt";s:529:"<div class="woocommerce-product-details__short-description">
+
+<strong>Grape Ape</strong>, propagated by Apothecary Genetics and Barneyâ€™s Farm, is a mostly indica strain that crosses Mendocino Purps, Skunk, and Afghani. Named for its distinct grape-like smell, this indica is known for providing carefree relaxation that can help soothe pain, stress, and anxiety. Its dense, compact buds are wreathed in deep purple leaves which darken as this indica reaches full maturation following its 7 to 8 week flowering time.
+
+</div>";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:16:"grape-ape-indica";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-10-16 02:54:41";s:17:"post_modified_gmt";s:19:"2017-10-16 10:54:41";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:56:"http://medicinemanshop.ca/?post_type=product&#038;p=1263";s:10:"menu_order";s:1:"0";s:9:"post_type";s:7:"product";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}}

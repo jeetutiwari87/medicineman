@@ -1,0 +1,221 @@
+.our-farmers{
+	padding: 93px 0 95px;
+	.entry-title{
+		margin-bottom: 42px;
+	}
+}
+.profile-top{
+  position: relative;
+}
+.link-network {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	text-align:center;
+	opacity: 0;
+	z-index: 9;
+	transform: translate(0px, 20px);
+	-webkit-transform: translate(0px, 20px);
+	-moz-transform: translate(0px, 20px);
+	-ms-transform: translate(0px, 20px);
+	-o-transform: translate(0px, 20px);
+   li {
+      display: inline-block;
+      margin: 0 8px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #fff;
+      line-height: 30px;
+      text-align: center;
+      a{
+      	color: #a4a4a4;
+      }
+      &:hover{
+      	background: #94c347;
+      	a{
+      		color: #fff;
+      	}
+      }
+  }
+}
+.profile-bottom{
+	padding-top: 24px;
+	text-align: center;
+}
+.profile-name{
+	font-weight: bold;
+	font-size: 16px;
+	color: #3a3a3b;
+}
+.profile-content {
+	&:hover{
+		.bg-hover2{
+			&:before{
+				opacity: 1;
+			}
+		}
+		.link-network{
+			opacity: 1;
+			transform: translate(0px, 0);
+			-webkit-transform: translate(0px, 0);
+			-moz-transform: translate(0px, 0);
+			-ms-transform: translate(0px, 0);
+			-o-transform: translate(0px, 0);
+		}
+	}
+}
+.testimonials-client .testimonial_style_4{
+	font-family: Lora;
+	color: #555;
+	.tes_image img {
+		width: auto;
+	    max-width: 120px;
+	    border-radius: 50%;
+	    text-align: center;
+	    margin: 0 auto;
+	    max-height: 120px;
+	}
+	p.name {
+	    font-size: 24px;
+	    font-weight: normal;
+	    color: #222;
+	    font-family: inherit;
+	    padding-top: 24px;
+	    margin-bottom: 4px;
+	}	
+	.tes_role{
+		font-family: inherit;
+	}
+	.testimonial_content{
+	 	font-family: "Open Sans",Arial;
+	    margin: 0 auto !important;
+	    max-width: 800px;
+	    padding: 7px 15px 28px !important;  
+	    p {
+		    font-style: normal;
+		    font-size: 14px;
+		    line-height: 24px;
+		}	
+	}
+	.owl-theme .owl-controls .owl-nav{
+	    margin: 0 auto;
+	    text-align: center;
+	    margin-top: -2px;
+		div {
+		    text-align: center;
+		    background: url(../images/next_prev.png) no-repeat center center;
+		    display: inline-block;
+		    width: 73px;
+		    margin: 0 16px;
+		    text-indent: -9999px;
+		    color: transparent;
+		    &.owl-prev{
+		        background-position-x: -93px;	
+		    }
+		    &.owl-next{
+		    	background-position: -7px;
+		    }
+		    &:hover{
+		    	opacity: 0.5;
+		    }
+		}	    
+	}
+}
+.set_max_width.uvc-heading .uvc-sub-heading{
+	max-width: 700px;
+}
+ul.ult_tabmenu.style1.Style_6{
+	background: none;
+	> li.ult_tab_li.current span.ult-span-text, 
+	 li.current a.ult_a, li:hover .ult-span-text{
+	 	color: #222 !important;
+	 }
+	li a.ult_a{
+	    font-weight: normal;
+	    font-size: 14px;
+	    border: none !important;
+	    text-transform: uppercase;
+	    padding: 10px 26px 10px 21px;
+	    &:after{
+			content: "";
+		    position: absolute;
+		    top: -1px;
+		    right: 0;
+		    left: auto !important;
+		    padding-top: 0;
+		    width: 1px;
+		    height: 78%;
+		    transform: none;
+		    display: none;
+		    border: none;
+		    font-size: 21px;
+		    background: #999999;
+		    transform-style: preserve-3d;
+		    transform: skewX(-31deg);	 
+			-webkit-transform: skewX(-31deg); 
+			-ms-transform: skewX(-31deg); 
+			display: block; 		       	
+	    }		
+	}
+	li.ult_tab_li.ult_tab_style_6:last-child{
+		border-right: none !important;
+		a.ult_a:after{
+			display: none;
+		}
+	}
+	.ult_tabitemname{
+		padding-top: 0;
+	}
+}
+.mail_form_type2{
+	text-align: center;
+    margin-top: 36px;
+    form{
+    	.mc4wp-form-fields{
+	    	max-width: 360px;
+		    margin: 0 auto;
+		    border-bottom: 1px solid #555555;
+		    position: relative;
+		    padding-bottom: 2px;
+    	}
+	    input[type="email"],input[type="text"]{
+		    background: none;
+		    padding: 9px 10px 6px;
+		    height: 38px;
+		    width: 100%;
+		    color: #999;
+		    font-family: Lora;
+		    margin-top: 2px;    	
+	    }
+	    button[type="submit"]{
+	    	position: absolute;
+		    right: -6px;
+		    bottom: -3px;
+		    color: #555;
+		    background: none !important;
+		    box-shadow: none !important;		    
+		    > span{
+		    	display: none;
+		    }
+		    &:before{
+				content: "\f1d8";
+			    font-family: FontAwesome;
+			    font-style: normal;
+			    font-weight: normal;
+			    color: inherit;
+			    font-size: 20px;		    	
+		    }
+		    &:hover{
+		    	color: $primary_color;
+		    }
+	    }
+    }
+}
+.cs_content_box{
+	.wpb_single_image{
+		img{
+    		box-shadow: 4px 7px 0px 0px rgba(192, 188, 184, 0.3);
+		}
+	}
+}
